@@ -1,46 +1,34 @@
 {
- "versao": "1.1.7",
+ "versao": "1.1.8",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.7.zip",
- "sha256": "e5a9e998b5d595a36028da75339c13cd4fc8d0aa76be4fe002be28223d8eea1a",
- "tamanho": 716065,
- "assinatura": "ES1ZTCvhJTx8ToGINYURf7UIsAM3v6JBaEOMyBKhm2fIG365yc4QuzVBm2I//6al1dCrnXRUB8ZL7cP+5EEwCw==",
+ "arquivo": "atualizacao-1.1.8.zip",
+ "sha256": "e47803d87544312c977ec72956293743a0ddd9b5a7bbba8473e8b72784801f23",
+ "tamanho": 723462,
+ "assinatura": "81Ob5jLGzzuwyz6MSDoci596H3jus+6yrT/B2LCSiDlc72AkZaCKjsbS+bKU0rllxBWMYRw4EGgnwp48mgD6Cw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Sair da tela de Vendas com venda em andamento não congela mais: ao confirmar, a venda fica pendente e a tela escolhida abre."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Ficha técnica do produto: o campo Unidade agora lista as unidades."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Autorização por usuário e senha nunca vem preenchida."
+   "texto": "Aviso de e-mail com Gmail: explica a senha de app e permite cadastrar usuário e senha."
   },
   {
    "tipo": "melhoria",
-   "texto": "Aviso de nova versão na barra superior."
+   "texto": "Cadastros em LETRAS MAIÚSCULAS (digitação e gravação); cadastros existentes são convertidos uma vez."
   },
   {
    "tipo": "melhoria",
-   "texto": "Fechamento do caixa: uma linha por forma de pagamento no comprovante."
+   "texto": "Várias empresas (CNPJs): tela Empresas lista, cadastra, edita, inativa e exclui; uma fica em uso."
   },
   {
    "tipo": "melhoria",
-   "texto": "Vendas e entrada de mercadoria exigem empresa cadastrada."
+   "texto": "Instalador de atalhos dos terminais pergunta qual empresa o terminal usa; a venda guarda a empresa."
   },
   {
    "tipo": "melhoria",
-   "texto": "Ao abrir o caixa, o sistema vai direto para Vendas."
+   "texto": "Mensagens de aviso aparecem no topo da tela."
   },
   {
    "tipo": "melhoria",
-   "texto": "Lançar produção e Produtos do caixa exigem usuário e senha, com permissões próprias em Equipe → Perfis."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Atualização automática mais rápida."
+   "texto": "E-mail: seletor de provedor (Gmail, Outlook, Yahoo) com passo a passo da senha de app."
   }
  ]
 }
