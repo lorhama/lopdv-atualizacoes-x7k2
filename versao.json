@@ -1,38 +1,26 @@
 {
- "versao": "1.1.11",
+ "versao": "1.1.10",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.11.zip",
- "sha256": "fef20e2714ca486e4e979d65e3edc9be40988848803eb119bd05b64d958fdf92",
- "tamanho": 689559,
- "assinatura": "egBmbTz28VOMs/9vETBpi1jBjwigGy+oRjRS8uBESswmLinMAIEvQQqfXqQlH+OXedQISfFRCWgQvV3bOaumDg==",
+ "arquivo": "atualizacao-1.1.10.zip",
+ "sha256": "ed796f4c6c5a43d498f678534ff80e103c51122a58ac5014930ce77850c8aa69",
+ "tamanho": 679656,
+ "assinatura": "C/zyteO3Ce2cayggbgr/G4l9ql260NgcGLdisjBbqErv8Yd5Zm6vh5UWeiXHPKXuwz4TspbUFrKEoXuO0rLhBA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "O aviso de nova versão aparecia duas vezes (faixa no topo e botão). Agora aparece só o botão da barra superior."
+   "texto": "Atualização: o plano B de início do atualizador usa um método que sobrevive ao fechamento do sistema."
   },
   {
    "tipo": "melhoria",
-   "texto": "O LoPDV não abre duas vezes no mesmo computador: se já houver uma janela aberta, avisa e não abre outra (o servidor também não inicia uma segunda cópia)."
+   "texto": "Backups em pasta própria (padrão C:\\LoPDV-Backups), que o cliente pode trocar em Configurações."
   },
   {
    "tipo": "melhoria",
-   "texto": "Ao finalizar a venda, janela com tudo que foi feito: pagamentos (NSU/autorização), troco, desconto/arredondamento, fiado, cozinha/bar, baixa de estoque, doação e comprovante do cartão."
+   "texto": "Limpeza automática de sobras no computador do cliente (pacotes antigos, cópias de segurança antigas, notas e arquivos de desenvolvimento)."
   },
   {
    "tipo": "melhoria",
-   "texto": "Venda fiado imprime via com os débitos em aberto do cliente: valor de cada venda e total, com linha de assinatura."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Recebimento de fiado imprime comprovante de pagamento para o cliente (com Reimprimir)."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Botão Receber fiado na tela de vendas: consulta por cliente com débitos em aberto, itens de cada venda e recebimento na hora."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Ajuste de estoque com motivos cadastrados (ACERTO ESTOQUE, DEVOLUCAO P/FORNEC., DOACAO, PRODUTO VENCIDO, QUEBRAS, ROUBO, USO INTERNO) e cadastro de novos motivos na própria tela."
+   "texto": "Botões da base da tela de Vendas com tamanho padrão e nomes abreviados."
   }
  ]
 }
