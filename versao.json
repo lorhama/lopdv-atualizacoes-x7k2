@@ -1,34 +1,18 @@
 {
- "versao": "1.1.8",
+ "versao": "1.1.9",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.8.zip",
- "sha256": "e47803d87544312c977ec72956293743a0ddd9b5a7bbba8473e8b72784801f23",
- "tamanho": 723462,
- "assinatura": "81Ob5jLGzzuwyz6MSDoci596H3jus+6yrT/B2LCSiDlc72AkZaCKjsbS+bKU0rllxBWMYRw4EGgnwp48mgD6Cw==",
+ "arquivo": "atualizacao-1.1.9.zip",
+ "sha256": "457236ef6c4c9d643250153c9976cf3bcbec78ae717c1dd42550c5d0ec2f2d85",
+ "tamanho": 727443,
+ "assinatura": "yKCaO6DRy9NCrwPFn2EqUJ62eN5V4sL2SjuJMeNrad/kc0oeyHh15OTbYS91iwY1G215ED6iWbv9OD7Z6BpvCw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Aviso de e-mail com Gmail: explica a senha de app e permite cadastrar usuário e senha."
+   "texto": "Atualização pela tela travava: o atualizador agora inicia de forma independente do sistema, o sistema só fecha depois que ele confirma, e qualquer erro aparece na tela e no log."
   },
   {
    "tipo": "melhoria",
-   "texto": "Cadastros em LETRAS MAIÚSCULAS (digitação e gravação); cadastros existentes são convertidos uma vez."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Várias empresas (CNPJs): tela Empresas lista, cadastra, edita, inativa e exclui; uma fica em uso."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Instalador de atalhos dos terminais pergunta qual empresa o terminal usa; a venda guarda a empresa."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Mensagens de aviso aparecem no topo da tela."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "E-mail: seletor de provedor (Gmail, Outlook, Yahoo) com passo a passo da senha de app."
+   "texto": "A atualização mostra cada etapa do que está acontecendo e grava log com resultado (concluída ou falha); botão Ver log da atualização em Configurações."
   }
  ]
 }
