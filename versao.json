@@ -1,0 +1,14 @@
+{
+ "versao": "1.1.4",
+ "data": "02/11/2026",
+ "arquivo": "atualizacao-1.1.4.zip",
+ "sha256": "79b87246bb1ebfcad53b92ce5097b3d709f45f33bdb8c6fb4400a7b1ff2a0b33",
+ "tamanho": 641405,
+ "assinatura": "Ixssz3r1y0V/sLU6jEEWGbelNe9sCidN/Z/gMn4b+Z0Mfs8qanruce8vtpibd+TQSmloBNlOv6Xo2LECM9NmDA==",
+ "notas": [
+  {
+   "tipo": "correcao",
+   "texto": "Receber não exige mais enviar os itens antes: ao finalizar o recebimento, os itens são enviados automaticamente para a cozinha e o bar (aparecem na tela de produção e o pedido é impresso)"
+  }
+ ]
+}
