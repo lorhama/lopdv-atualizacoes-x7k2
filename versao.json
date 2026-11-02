@@ -1,26 +1,78 @@
 {
- "versao": "1.1.10",
+ "versao": "1.1.11",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.10.zip",
- "sha256": "ed796f4c6c5a43d498f678534ff80e103c51122a58ac5014930ce77850c8aa69",
- "tamanho": 679656,
- "assinatura": "C/zyteO3Ce2cayggbgr/G4l9ql260NgcGLdisjBbqErv8Yd5Zm6vh5UWeiXHPKXuwz4TspbUFrKEoXuO0rLhBA==",
+ "arquivo": "atualizacao-1.1.11.zip",
+ "sha256": "0c94bbb0bed674d7c02f404bde1aedff403615f5918db685606cc888db43e78a",
+ "tamanho": 1723148,
+ "assinatura": "53dcZN9y1CYwWOVu1OCp5KPAcvhPGFdA5xacY2WDnA3qVAevgKERY0x7Aie5x+7OHkJMD5XBBqY62PxmYeXaBA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Atualização: o plano B de início do atualizador usa um método que sobrevive ao fechamento do sistema."
+   "texto": "O aviso de nova versão aparecia duas vezes (faixa no topo e botão na barra). Agora aparece só o botão da barra superior, que abre as novidades e permite atualizar."
   },
   {
    "tipo": "melhoria",
-   "texto": "Backups em pasta própria (padrão C:\\LoPDV-Backups), que o cliente pode trocar em Configurações."
+   "texto": "O LoPDV não abre mais duas vezes no mesmo computador: se já houver uma janela aberta, o atalho avisa \"O LoPDV já está aberto neste computador\" e não abre outra. Uma segunda cópia do servidor também não inicia."
   },
   {
    "tipo": "melhoria",
-   "texto": "Limpeza automática de sobras no computador do cliente (pacotes antigos, cópias de segurança antigas, notas e arquivos de desenvolvimento)."
+   "texto": "Ao finalizar a venda, abre uma janela com tudo que foi feito: pagamento por forma (com NSU/autorização do cartão), troco a entregar, desconto/arredondamento, fiado lançado, pedido enviado e impresso na cozinha/bar, baixa de estoque, doação do troco e comprovante do cartão."
   },
   {
    "tipo": "melhoria",
-   "texto": "Botões da base da tela de Vendas com tamanho padrão e nomes abreviados."
+   "texto": "Venda fiado imprime uma via com os débitos em aberto do cliente: valor de cada venda (a de hoje marcada), vencimentos e o total em aberto, com linha de assinatura. O resultado aparece na janela de finalização."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Ao receber um fiado, imprime o comprovante de pagamento para o cliente (venda de origem, forma, valor pago, saldo restante ou quitada e total que o cliente ainda deve). Janela mostra o resultado, com botão Reimprimir."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Botão \"Receber fiado\" na tela de vendas: abre a consulta de fiado por cliente (lista de clientes com débito, vendas em aberto com vencimento e vencidas em destaque, opção de ver quitadas), botão Itens para ver os itens de cada venda e botão Receber para dar baixa ali mesmo."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Ajuste de estoque agora tem motivos cadastrados: escolha na lista (mais observação opcional) e cadastre, renomeie, inative ou exclua motivos pelo botão da própria tela. Já vêm cadastrados: ACERTO ESTOQUE, DEVOLUCAO P/FORNEC., DOACAO, PRODUTO VENCIDO, QUEBRAS, ROUBO e USO INTERNO."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Nova tela Balanço geral (menu Estoque): conferência de todo o estoque com leitor de código de barras, sem acúmulo (informa o total e salva no F2) ou com acúmulo (cada leitura soma). Só um balanço em andamento por vez; lista dos balanços com a situação; ao finalizar pergunta se zera os não conferidos (com confirmação), abate do estoque o que foi vendido depois de cada contagem (caixa aberto), bloqueia entrada de mercadoria enquanto houver balanço aberto e gera relatório PDF dos conferidos e não conferidos (baixar ou imprimir)."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "O menu lateral recolhe sozinho ao clicar em qualquer lugar fora dele (no celular, fecha). O recolhimento acontece depois do clique, para o botão clicado não sair do lugar e o clique não se perder."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "A importação de XML só aceita nota emitida para o CNPJ da empresa em uso (o destinatário da nota precisa ser a empresa). Nota de outro CNPJ é recusada com aviso claro."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "No cadastro da empresa, CNPJ/CPF, telefone e CEP ganham máscara automática enquanto digita, e os documentos são validados (dígitos verificadores) antes de salvar."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Entrada manual: botão \"Entrada por foto da nota\". Lê a foto da nota aqui no computador, sem internet (OCR offline), mostra os itens para conferência (produto, quantidade, valor, com alerta de \"conferir\") e passa os marcados para a entrada. A leitura de foto pode errar: sempre conferir."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Novo relatório \"Entradas de mercadoria\" (menu Relatórios): filtros por período, tipo (Entrada XML, Entrada consignado, manual, doação) e fornecedor; totais por tipo, opção de mostrar os itens, CSV e impressão."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Todas as tabelas do sistema agora ordenam ao clicar no título da coluna (crescente/decrescente, como no Excel; reconhece números, valores em R$ e datas) e têm caixa de filtro para achar linhas por qualquer texto. A coluna de data passou a mostrar o ano."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Itens da nota (XML) sem cadastro agora geram cadastro automático SUSPENSO: código provisório (AUTO-n) que não gasta o sequencial, produto não vendável, marcado como \"Pendente\" em Produtos até alguém confirmar (aí recebe o código sequencial) ou amarrar. Botão \"Amarrar ao cadastro\" na importação do XML (e em Produtos, para pendentes já lançados): liga a entrada a um produto existente, aprende o código de barras novo/código do fornecedor e descarta o cadastro automático (estoque e histórico vão para o produto existente)."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "O cabeçalho superior (título da tela, empresa, usuário, Minha senha e Sair) fica fixo no topo: continua visível por mais que a página seja rolada para baixo."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Modo noturno: chave \"🌙 Noturno\" na barra superior deixa o sistema escuro (tela, tabelas, janelas, avisos). A escolha fica guardada no computador e vale já na próxima abertura. Na impressão continua claro."
   }
  ]
 }
