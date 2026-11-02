@@ -1,58 +1,14 @@
 {
- "versao": "1.1.5",
+ "versao": "1.1.6",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.5.zip",
- "sha256": "64a61576930189cf8ad6c33f23cbef4e8df3ada6e9a6cb476dd9e77aca837c18",
- "tamanho": 712894,
- "assinatura": "jLX1XiZaDLnYxYJd1H7yobn2aKVO7KNFfJTJyE93NRXNudUX8s3VPRjjDtJqyTU12WhCihjohkQACSEKJLEKCw==",
+ "arquivo": "atualizacao-1.1.6.zip",
+ "sha256": "ee2b6fa938fee1070b2507c1fc0d8988af9a3078a8772a55d478b2d49652bc34",
+ "tamanho": 712863,
+ "assinatura": "I6hOZLm9Dk1vg6EUKPII9h4fSj9qVOm4U9omKs6f8u6NkNMWkjOiWbPIikS2OF8BzyVzv2aNZAtGVJjmZZ46Dg==",
  "notas": [
   {
-   "tipo": "correcao",
-   "texto": "Aviso de nova versão: o sistema confere ao abrir e de hora em hora, e avisa os administradores quando a atualização automática não está configurada ou falha"
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Painel de caixa: a tabela não fica mais cortada à direita"
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Tela de vendas: a lista de itens não corta mais as colunas Total e Situação; produtos e barra inferior mais compactos"
-  },
-  {
    "tipo": "melhoria",
-   "texto": "Controle de patrimônio: bens não imobilizados recebem número de patrimônio; nova tela Patrimônio com busca, novo bem, edição, baixa, etiqueta e CSV"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Entrada de mercadoria (manual e automática): opção de nota de doação (por nota e por item), nota mista com revenda, doação e patrimônio; doação entra no estoque sem custo e sem conta a pagar"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Consignação: nota consignada entra no estoque sem conta a pagar; nova tela Consignações para devoluções e acerto com a nota final, que gera o contas a pagar do que ficou"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Vendas: venda pendente (ao sair com itens lançados pergunta, salva como pendente e oferece resgatar ou excluir com usuário e senha)"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Painel inicial com novo layout, período por cartão (padrão: hoje) e sem previsão de vendas do mês"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Menu lateral fixo (acompanha a rolagem só quando não cabe na tela) e telas ajustadas ao tamanho do monitor"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Telas de entrada renomeadas: Entrada de mercadoria (Manual) e (Automática)"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Empresa: guia em PDF para configurar o envio de e-mails (Gmail, Hotmail e outros)"
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Atualização automática com endereço de atualizações já configurado e travado; o cliente não precisa informar nada"
+   "texto": "Número do usuário sem zeros à esquerda (tela de login, lista de usuários e vendedor na venda); digitar 1 ou 000001 continua funcionando"
   }
  ]
 }
