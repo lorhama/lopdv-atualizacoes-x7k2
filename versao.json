@@ -1,14 +1,46 @@
 {
- "versao": "1.1.6",
+ "versao": "1.1.7",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.6.zip",
- "sha256": "ee2b6fa938fee1070b2507c1fc0d8988af9a3078a8772a55d478b2d49652bc34",
- "tamanho": 712863,
- "assinatura": "I6hOZLm9Dk1vg6EUKPII9h4fSj9qVOm4U9omKs6f8u6NkNMWkjOiWbPIikS2OF8BzyVzv2aNZAtGVJjmZZ46Dg==",
+ "arquivo": "atualizacao-1.1.7.zip",
+ "sha256": "e5a9e998b5d595a36028da75339c13cd4fc8d0aa76be4fe002be28223d8eea1a",
+ "tamanho": 716065,
+ "assinatura": "ES1ZTCvhJTx8ToGINYURf7UIsAM3v6JBaEOMyBKhm2fIG365yc4QuzVBm2I//6al1dCrnXRUB8ZL7cP+5EEwCw==",
  "notas": [
   {
+   "tipo": "correcao",
+   "texto": "Sair da tela de Vendas com venda em andamento não congela mais: ao confirmar, a venda fica pendente e a tela escolhida abre."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Ficha técnica do produto: o campo Unidade agora lista as unidades."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Autorização por usuário e senha nunca vem preenchida."
+  },
+  {
    "tipo": "melhoria",
-   "texto": "Número do usuário sem zeros à esquerda (tela de login, lista de usuários e vendedor na venda); digitar 1 ou 000001 continua funcionando"
+   "texto": "Aviso de nova versão na barra superior."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Fechamento do caixa: uma linha por forma de pagamento no comprovante."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Vendas e entrada de mercadoria exigem empresa cadastrada."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Ao abrir o caixa, o sistema vai direto para Vendas."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Lançar produção e Produtos do caixa exigem usuário e senha, com permissões próprias em Equipe → Perfis."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Atualização automática mais rápida."
   }
  ]
 }
