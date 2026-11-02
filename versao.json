@@ -1,18 +1,26 @@
 {
- "versao": "1.1.9",
+ "versao": "1.1.10",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.9.zip",
- "sha256": "457236ef6c4c9d643250153c9976cf3bcbec78ae717c1dd42550c5d0ec2f2d85",
- "tamanho": 727443,
- "assinatura": "yKCaO6DRy9NCrwPFn2EqUJ62eN5V4sL2SjuJMeNrad/kc0oeyHh15OTbYS91iwY1G215ED6iWbv9OD7Z6BpvCw==",
+ "arquivo": "atualizacao-1.1.10.zip",
+ "sha256": "ed796f4c6c5a43d498f678534ff80e103c51122a58ac5014930ce77850c8aa69",
+ "tamanho": 679656,
+ "assinatura": "C/zyteO3Ce2cayggbgr/G4l9ql260NgcGLdisjBbqErv8Yd5Zm6vh5UWeiXHPKXuwz4TspbUFrKEoXuO0rLhBA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Atualização pela tela travava: o atualizador agora inicia de forma independente do sistema, o sistema só fecha depois que ele confirma, e qualquer erro aparece na tela e no log."
+   "texto": "Atualização: o plano B de início do atualizador usa um método que sobrevive ao fechamento do sistema."
   },
   {
    "tipo": "melhoria",
-   "texto": "A atualização mostra cada etapa do que está acontecendo e grava log com resultado (concluída ou falha); botão Ver log da atualização em Configurações."
+   "texto": "Backups em pasta própria (padrão C:\\LoPDV-Backups), que o cliente pode trocar em Configurações."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Limpeza automática de sobras no computador do cliente (pacotes antigos, cópias de segurança antigas, notas e arquivos de desenvolvimento)."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Botões da base da tela de Vendas com tamanho padrão e nomes abreviados."
   }
  ]
 }
