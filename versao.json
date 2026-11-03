@@ -1,26 +1,26 @@
 {
- "versao": "1.1.12",
+ "versao": "1.1.13",
  "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.12.zip",
- "sha256": "f6754fddd09b0efd667ff05009ef7f5fb53ebb660164ba2ff04ce011586ab959",
- "tamanho": 1726772,
- "assinatura": "0XdoVhxb/qjYdPXcAf3I48U2hn3vOuAw1zspsDSgpIrJFXSlxsR6mknIXQO7pnBAq0bmu+Jpy+Z/6TSKH2n5AQ==",
+ "arquivo": "atualizacao-1.1.13.zip",
+ "sha256": "9342a4e5cea0e809b12f680c0aa4b179917eb0a32236cd04b158d6f9535a763d",
+ "tamanho": 1732430,
+ "assinatura": "jZ6MaJVzyuWSNoqOq85vnEqipaP/EwHO+qFEhOIabq91cte24pIT/MSZU6lQSQ+U8VTeq3MkIaYmN7tMy8sZCw==",
  "notas": [
   {
-   "tipo": "correcao",
-   "texto": "O relatório \"Entradas de mercadoria\" aparecia no menu \"Outros\"; agora fica em Relatórios. Qualquer tela nova de um grupo entra no menu do grupo certo, em vez de cair em \"Outros\"."
+   "tipo": "melhoria",
+   "texto": "Cupom fiscal item a item: o sistema junta numa linha só os itens repetidos (mesmo código do fornecedor/da nota ou mesmo código de barras), somando a quantidade e o total (ex.: 4 linhas de 1 un viram 1 item de 4 un). Vale para XML e para foto/PDF. Na foto/PDF também lê o número do item, o código e o desconto de cada item (o desconto é abatido do custo) e há o botão \"Unificar linhas marcadas\" para juntar à mão o que ficou separado."
   },
   {
    "tipo": "melhoria",
-   "texto": "Patrimônio: o número do bem já era gerado automaticamente (sequencial); agora isso fica visível. O \"+ Novo bem\" mostra o campo \"Nº do patrimônio (automático)\" e os avisos (cadastro e entrada de mercadoria) mostram o número no mesmo formato da etiqueta (00001, 00002...)."
+   "texto": "Alterar o nome do produto direto nas entradas: no XML, o nome do produto novo pode ser corrigido antes de cadastrar; em produto já cadastrado há o botão \"✏ alterar nome\" (entrada manual, XML e foto/PDF), que muda o nome no cadastro do produto."
   },
   {
    "tipo": "melhoria",
-   "texto": "Entrada por foto agora também lê PDF da nota (DANFE salvo ou recebido por e-mail), sem internet, e ganhou uma aba própria \"📷 Foto / PDF da nota\" na Entrada de mercadoria (além do botão na entrada manual). PDF com texto é lido com mais precisão que foto; PDF escaneado (imagem) pede foto. Se a chave da nota já estiver nas Notas da SEFAZ com XML completo, o sistema avisa e oferece importar pelo XML. Atualização instala o leitor de PDF (npm install)."
+   "texto": "Entrada por foto/PDF: o \"Nº da nota / documento\" da entrada manual vem preenchido da nota (lido da chave de acesso, ou do texto da nota; pode corrigir antes de passar). Se o CNPJ do emitente estiver nos Fornecedores, o fornecedor também é escolhido sozinho."
   },
   {
    "tipo": "melhoria",
-   "texto": "Entrada por foto/PDF: cada item lido agora tem a escolha \"Cadastrar como novo\" (cadastro automático pendente, sem código sequencial) ou \"🔗 Amarrar ao cadastro\" (liga a um produto que já existe). Itens sem produto deixam de ser ignorados; o nome do novo produto pode ser corrigido na própria linha."
+   "texto": "Entrada de mercadoria (Automática): ao lado de \"Buscar por chave (serviço pago)\" há o botão \"Buscar por chave no site da SEFAZ\" (grátis). Você cola a chave, o sistema identifica estado e tipo (NF-e/NFC-e), abre o site de consulta certo e deixa a chave copiada; o código de segurança (captcha) é digitado por você. Depois, escolha o XML baixado (importa direto) ou salve a página como PDF e use a aba Foto/PDF da nota."
   }
  ]
 }
