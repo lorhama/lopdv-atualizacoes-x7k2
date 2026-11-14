@@ -1,26 +1,18 @@
 {
- "versao": "1.1.13",
- "data": "02/11/2026",
- "arquivo": "atualizacao-1.1.13.zip",
- "sha256": "9342a4e5cea0e809b12f680c0aa4b179917eb0a32236cd04b158d6f9535a763d",
- "tamanho": 1732430,
- "assinatura": "jZ6MaJVzyuWSNoqOq85vnEqipaP/EwHO+qFEhOIabq91cte24pIT/MSZU6lQSQ+U8VTeq3MkIaYmN7tMy8sZCw==",
+ "versao": "1.1.14",
+ "data": "14/11/2026",
+ "arquivo": "atualizacao-1.1.14.zip",
+ "sha256": "a4f81d51f7c0a4af3b58da5f7d0a74a387d8335728c30bed8366af40d6741862",
+ "tamanho": 1730746,
+ "assinatura": "N3Tm5rwUMI0mWcA1b+rr5XG12aa/Ed1Jze2dT9Xlq4+uaUfWhjqHSMVSWYs6Kkgcwyv81HjEJ7kZ91dfSGUKDw==",
  "notas": [
   {
-   "tipo": "melhoria",
-   "texto": "Cupom fiscal item a item: o sistema junta numa linha só os itens repetidos (mesmo código do fornecedor/da nota ou mesmo código de barras), somando a quantidade e o total (ex.: 4 linhas de 1 un viram 1 item de 4 un). Vale para XML e para foto/PDF. Na foto/PDF também lê o número do item, o código e o desconto de cada item (o desconto é abatido do custo) e há o botão \"Unificar linhas marcadas\" para juntar à mão o que ficou separado."
+   "tipo": "correcao",
+   "texto": "Recuperar senha agora informa para qual e-mail (parcialmente oculto) o código foi enviado e explica claramente quando o usuário não existe, não tem e-mail cadastrado ou pediu código demais."
   },
   {
    "tipo": "melhoria",
-   "texto": "Alterar o nome do produto direto nas entradas: no XML, o nome do produto novo pode ser corrigido antes de cadastrar; em produto já cadastrado há o botão \"✏ alterar nome\" (entrada manual, XML e foto/PDF), que muda o nome no cadastro do produto."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Entrada por foto/PDF: o \"Nº da nota / documento\" da entrada manual vem preenchido da nota (lido da chave de acesso, ou do texto da nota; pode corrigir antes de passar). Se o CNPJ do emitente estiver nos Fornecedores, o fornecedor também é escolhido sozinho."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Entrada de mercadoria (Automática): ao lado de \"Buscar por chave (serviço pago)\" há o botão \"Buscar por chave no site da SEFAZ\" (grátis). Você cola a chave, o sistema identifica estado e tipo (NF-e/NFC-e), abre o site de consulta certo e deixa a chave copiada; o código de segurança (captcha) é digitado por você. Depois, escolha o XML baixado (importa direto) ou salve a página como PDF e use a aba Foto/PDF da nota."
+   "texto": "Removido o botão \"Buscar por chave no site da SEFAZ\" da Entrada de mercadoria (Automática). Fica só \"Buscar por chave (serviço pago)\"."
   }
  ]
 }
