@@ -1,18 +1,18 @@
 {
- "versao": "1.1.14",
+ "versao": "1.1.15",
  "data": "14/11/2026",
- "arquivo": "atualizacao-1.1.14.zip",
- "sha256": "a4f81d51f7c0a4af3b58da5f7d0a74a387d8335728c30bed8366af40d6741862",
- "tamanho": 1730746,
- "assinatura": "N3Tm5rwUMI0mWcA1b+rr5XG12aa/Ed1Jze2dT9Xlq4+uaUfWhjqHSMVSWYs6Kkgcwyv81HjEJ7kZ91dfSGUKDw==",
+ "arquivo": "atualizacao-1.1.15.zip",
+ "sha256": "06d3a813dc6c5ff1393679868af38a8e97ec03c29e47ddf8888b8651d3dcee5d",
+ "tamanho": 1731081,
+ "assinatura": "4C7fhnyBzq2XN/gr0duHRy9snvui95ReFXULFeFKZJI+XIUZM21c9aMJzCNFTE4EsrUTmpn5ET4VFSEG/sScDw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Recuperar senha agora informa para qual e-mail (parcialmente oculto) o código foi enviado e explica claramente quando o usuário não existe, não tem e-mail cadastrado ou pediu código demais."
+   "texto": "Entrada por foto/PDF: linhas com quantidade ou total ilegíveis (caneta, rasura) não são mais descartadas — aparecem com a quantidade em branco para você digitar. Também confere o total e a quantidade do rodapé da nota com o que foi lido e avisa quanto falta, tem o botão \"＋ Incluir item não lido\" e a foto é ampliada e tem a caneta azul atenuada antes da leitura."
   },
   {
    "tipo": "melhoria",
-   "texto": "Removido o botão \"Buscar por chave no site da SEFAZ\" da Entrada de mercadoria (Automática). Fica só \"Buscar por chave (serviço pago)\"."
+   "texto": "Tela de entrada: o campo Usuário não lista mais os usuários cadastrados; informe apenas o número do usuário. A lista pública de usuários foi removida do servidor (segurança)."
   }
  ]
 }
