@@ -1,26 +1,14 @@
 {
- "versao": "1.1.27",
+ "versao": "1.1.28",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.27.zip",
- "sha256": "6e4f965af23dc6090c3ccb54d3d268d1b0bc985cf8abd33640cfb2485c1f0132",
- "tamanho": 1763826,
- "assinatura": "o78jqlfmMs4CXs9vqcCPhS1dFkPZ/liqNpr4maOFjMZTj6hQVnGuPTPu/yF8YvtqOXdZkuL5psHq2iq0xpVjBw==",
+ "arquivo": "atualizacao-1.1.28.zip",
+ "sha256": "472ad7d2ec2ba558d36e27972cbd1c51b82590a39b3293ad19e68bb76f434cd9",
+ "tamanho": 1763827,
+ "assinatura": "ExTf0b6nRMrdctueKAgTHWVPusYo+EtHnV0xt/HvgsGNx36Npp57yy/kXR62XZueTGHj+3vJMeXM0x3xIZ4bBw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Impressoras: o sistema agora identifica impressoras virtuais do Windows (PDF, XPS, OneNote) que só \"salvam arquivo em Documentos\", avisa na lista de escolha e recusa imprimir nelas com mensagem clara."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Cancelar venda finalizada: os itens ainda pendentes na cozinha/bar agora saem da tela de produção (e a cozinha/bar recebe o aviso de cancelado se o pedido já tinha sido impresso). Vendas já canceladas antes também deixam de aparecer pendentes na produção."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Telas que pedem validação de senha: Enter no usuário vai para a senha; Enter na senha vai para o botão de confirmar (outro Enter confirma). Vale para todas as janelas de autorização."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Tela Cozinha / Bar: atualização automática a cada 10 segundos (antes 5)."
+   "texto": "Cancelar venda finalizada: agora todos os itens da venda ficam cancelados, inclusive os que já tinham sido dados como retirados (o estoque deles já voltava); a venda cancelada também some da lista de retirados da cozinha/bar."
   }
  ]
 }
