@@ -1,14 +1,30 @@
 {
- "versao": "1.1.38",
+ "versao": "1.1.39",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.38.zip",
- "sha256": "38e2bc3c978b39b5c9de8b91277878c6889c0a1487bcafd523e66f421adfb9df",
- "tamanho": 1781479,
- "assinatura": "Puh2g339gCnu69v12w+C+MgvtNNVBx7I85HoWlJLog811HoX3zGwnJKDkw7g/DbMZpWZyWTKP6vpw2Bv9GjnCQ==",
+ "arquivo": "atualizacao-1.1.39.zip",
+ "sha256": "5c22676ec57d3b1bcb61b51d557f8c9549afa207d94e75ccbe0ea45e0e536b1b",
+ "tamanho": 1784206,
+ "assinatura": "ChTnNZYJU7/TrsTRE8W+vr+6Y1lIbQ9eVWAsQckk9IkhkreKtzX5EbNV8YrV0ENc3Gj+oLL1p0vOYDRJAot9AQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Todos os relatórios de vendas (Vendas, Ticket médio, Lucratividade e Mais vendidos) ganharam o filtro \"Forma de pagamento\". Ao escolher uma forma, entram só as vendas que tiveram pagamento nela (a venda aparece com o valor total, mesmo que parte tenha sido paga em outra forma)."
+   "texto": "Relatórios de venda agora mostram o Valor bruto (soma dos itens), o Desconto e o Valor líquido (o que foi realmente cobrado): na lista de Vendas (colunas e totais no topo), no Ticket médio (total, por dia e por atendente) e no CSV exportado."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Todos os relatórios de venda (Vendas, Ticket médio, Lucratividade e Mais vendidos) ganharam linha de TOTAL no rodapé das tabelas."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Novo relatório \"Contas a receber\" (menu Relatórios): total geral em aberto, vencido e recebido, total por cliente e detalhe dos títulos, com filtro por cliente, situação e vencimento, e exportação em CSV."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "O menu Financeiro agora tem só \"Contas a receber\": o botão Receber dos fiados usa o caixa aberto, a forma de pagamento (e TEF) e imprime o comprovante, como a antiga tela \"Receber fiado\", que saiu do menu."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Na finalização da venda (janela Receber) aparece \"Imprimir tickets\" com Cozinha, Bar e Brincadeira, sempre marcados por padrão (só aparecem os setores que têm itens ainda não impressos). Desmarque um setor para não imprimir o ticket dele naquela venda."
   }
  ]
 }
