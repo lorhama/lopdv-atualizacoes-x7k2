@@ -1,30 +1,22 @@
 {
- "versao": "1.1.39",
+ "versao": "1.1.40",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.39.zip",
- "sha256": "5c22676ec57d3b1bcb61b51d557f8c9549afa207d94e75ccbe0ea45e0e536b1b",
- "tamanho": 1784206,
- "assinatura": "ChTnNZYJU7/TrsTRE8W+vr+6Y1lIbQ9eVWAsQckk9IkhkreKtzX5EbNV8YrV0ENc3Gj+oLL1p0vOYDRJAot9AQ==",
+ "arquivo": "atualizacao-1.1.40.zip",
+ "sha256": "9c0b007aab7f624af3e53dd4ebbd2cb17701240ac4bed1c3804b795d859f31c3",
+ "tamanho": 1784970,
+ "assinatura": "peaSGjY/JreyEYk4os0INCogg++HYoRv+30WDZZxc8LylYau3+BiQjcQ7N1ef1o8wcuPOpVF75tH368vo4ZLDw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Relatórios de venda agora mostram o Valor bruto (soma dos itens), o Desconto e o Valor líquido (o que foi realmente cobrado): na lista de Vendas (colunas e totais no topo), no Ticket médio (total, por dia e por atendente) e no CSV exportado."
+   "texto": "Relatório de Contas a receber: nova opção \"Relatório\" com \"Total geral\" (resumo por cliente) ou \"Total geral imprimindo os itens\" (cada cliente com os títulos e os itens de cada venda, total por cliente e total geral). Sai na impressão pelo botão Imprimir."
   },
   {
    "tipo": "correcao",
-   "texto": "Todos os relatórios de venda (Vendas, Ticket médio, Lucratividade e Mais vendidos) ganharam linha de TOTAL no rodapé das tabelas."
+   "texto": "Painel: o cartão \"Venda líquida\" agora mostra também o Total bruto (e os descontos do período)."
   },
   {
-   "tipo": "correcao",
-   "texto": "Novo relatório \"Contas a receber\" (menu Relatórios): total geral em aberto, vencido e recebido, total por cliente e detalhe dos títulos, com filtro por cliente, situação e vencimento, e exportação em CSV."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "O menu Financeiro agora tem só \"Contas a receber\": o botão Receber dos fiados usa o caixa aberto, a forma de pagamento (e TEF) e imprime o comprovante, como a antiga tela \"Receber fiado\", que saiu do menu."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Na finalização da venda (janela Receber) aparece \"Imprimir tickets\" com Cozinha, Bar e Brincadeira, sempre marcados por padrão (só aparecem os setores que têm itens ainda não impressos). Desmarque um setor para não imprimir o ticket dele naquela venda."
+   "tipo": "melhoria",
+   "texto": "O aviso de \"Nova versão disponível\" aparece bem mais rápido: o sistema confere a cada 1 minuto (antes 5) e ignora o cache do GitHub (que atrasava até 5 minutos)."
   }
  ]
 }
