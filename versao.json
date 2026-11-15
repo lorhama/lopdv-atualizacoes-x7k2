@@ -1,18 +1,14 @@
 {
- "versao": "1.1.22",
+ "versao": "1.1.23",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.22.zip",
- "sha256": "34af206987d57de604bfac1ff3fde8af5132fb9b8230d3eee6653010eaa9554f",
- "tamanho": 1751001,
- "assinatura": "6dFdUHHz/a8urBfZGeTR3V1j+Vomvr1buEqiPnPuXqKnh6tjJBLWYQK26WVdhfEwXxaVakGRdJ31XkwFDMGiAQ==",
+ "arquivo": "atualizacao-1.1.23.zip",
+ "sha256": "3ff7d95eb9542bcfd6d9c3a13cb665b99a9ddc857df0c199a4b5bc8ade013fb7",
+ "tamanho": 1751043,
+ "assinatura": "bZQh+jHwu3Raw1hnlTL1XGsI9yg6I7VqIMjdbwI2Vd9sPMbxjWSAGyoXIoH0dALWK4k4efrEgBIKsHYfFNMxDA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Abas internas: corrigido o ✕ de fechar aba, que deixava a tela em branco e não fechava; agora fecha a aba e mostra a aba vizinha (ou o Painel, se for a última)."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Item genérico no caixa, escolha no bar: no cadastro do produto (ex.: \"Refrigerante\", \"Água\") há o campo \"Bebidas que este item pode ser\" (Coca lata, Coca Zero, Soda, Sukita, Guaraná...). O caixa vende só o item genérico com um preço; na tela Cozinha / Bar, ao marcar \"Retirado\", o bar informa quantas de cada bebida saíram (a soma precisa fechar com o que o caixa vendeu) e só essas bebidas baixam do estoque. O custo da venda usa o custo das bebidas escolhidas; a tela mostra o que foi entregue em \"Já retirados hoje\"."
+   "texto": "Corrigido: depois de salvar, editar, excluir ou inativar em Usuários (Equipe), Perfis, Configurações e telas fiscais, a lista não atualizava (efeito das abas) e o cadastro parecia não ter sido salvo; agora a tela recarrega na hora."
   }
  ]
 }
