@@ -1,14 +1,18 @@
 {
- "versao": "1.1.28",
+ "versao": "1.1.29",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.28.zip",
- "sha256": "472ad7d2ec2ba558d36e27972cbd1c51b82590a39b3293ad19e68bb76f434cd9",
- "tamanho": 1763827,
- "assinatura": "ExTf0b6nRMrdctueKAgTHWVPusYo+EtHnV0xt/HvgsGNx36Npp57yy/kXR62XZueTGHj+3vJMeXM0x3xIZ4bBw==",
+ "arquivo": "atualizacao-1.1.29.zip",
+ "sha256": "ca0c2ca15c5bd17ab87b1e0d79859c44dfccc0a51273fea569a827f2e034fec4",
+ "tamanho": 1768739,
+ "assinatura": "vk1x0+N4ki9U8OgThOsO0QMS45NoFBiSGV56mT82NNTJfIXkadP5MF8g7biGqIPphvb4MQBPLSOFjkQYalTSAw==",
  "notas": [
   {
-   "tipo": "correcao",
-   "texto": "Cancelar venda finalizada: agora todos os itens da venda ficam cancelados, inclusive os que já tinham sido dados como retirados (o estoque deles já voltava); a venda cancelada também some da lista de retirados da cozinha/bar."
+   "tipo": "melhoria",
+   "texto": "Manutenção > Importar equipe: cadastra/atualiza usuários por CSV. Arquivo padrão com nome e CPF (só o nome é obrigatório; login, senha, cargo, telefone, e-mail e ativo opcionais). O que não vier no arquivo fica em branco (em usuário existente, o dado atual é mantido). Usuário novo sem senha no arquivo recebe a senha padrão 1234; quem já existe mantém a senha. CPF validado e único. Prévia, arquivo de contrapartida e auditoria. O cadastro de usuários ganhou o campo CPF."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Equipe > Perfis e permissões (funções): ao abrir ou criar uma função, dá para marcar os usuários que a exercem (com filtro). Quem estiver em outra função passa para esta; quem for desmarcado fica sem função. A lista mostra quantos usuários há em cada função. Administrador não pode ser movido por aí e você não pode se desvincular da própria função."
   }
  ]
 }
