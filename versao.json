@@ -1,18 +1,42 @@
 {
- "versao": "1.1.25",
+ "versao": "1.1.26",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.25.zip",
- "sha256": "cc4ff62d7358de0a36bc01a89f14a3c24ccbefdbd5f70802de9fb71eaaf3745b",
- "tamanho": 1754655,
- "assinatura": "uUmLMCbHaJbWzQeXFNQJNpfKWJKcS1d/UTxpc79GOJs2+HKI3mbSNyTWnj08yj71+Lqv+oX2JfSNB5bhtYhGBQ==",
+ "arquivo": "atualizacao-1.1.26.zip",
+ "sha256": "da908cf247486d6872fe219445d152f33730309c535e9ccf551a5b48483ce1b0",
+ "tamanho": 1762516,
+ "assinatura": "iyq2nGVMC3b05p6J0b7uyqEgsjjVMXS3wSEZFOf95qSSh8bQ4nyvS2h6Z/IF5ledOniA6L7k7p8Oxufd9EScBw==",
  "notas": [
   {
-   "tipo": "melhoria",
-   "texto": "Conferência (balanço): o campo de leitura agora também deixa procurar pelo nome dos produtos cadastrados (lista de sugestões que filtra enquanto você digita); ao escolher, já abre a contagem do produto."
+   "tipo": "correcao",
+   "texto": "Segurança: todo cancelamento (item, venda aberta, venda finalizada) agora exige motivo e usuário/senha de quem tem permissão de cancelar; fica registrado quem cancelou e quem autorizou."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Cancelamento de venda finalizada: conferido que o estoque volta e o financeiro (caixa e fiado) é estornado; também corrigido para respeitar devoluções parciais já feitas."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Entrada manual por foto: agora reconhece imagem/planilha simples com as colunas PRODUTO, QUANTIDADE e VALOR UNITÁRIO (antes só reconhecia nota fiscal/cupom). O que não aparecer na linha (quantidade ou valor) entra zerado para você preencher, em vez de a linha ser descartada."
   },
   {
    "tipo": "melhoria",
-   "texto": "Finalizar a conferência: a opção \"Zerar os não conferidos\" vem marcada por padrão (os conferidos recebem a contagem e o restante fica com estoque 0); ainda dá para escolher \"Manter o estoque que estava\" e há confirmação antes de gravar."
+   "texto": "Balanço: ao iniciar, o sistema guarda automaticamente a foto do estoque de todos os produtos e faz um backup do banco. Se algo der errado, o botão \"Desfazer\" no histórico restaura o estoque que havia antes do balanço (vendas e entradas feitas depois são mantidas), com motivo e registro na auditoria. Também dá para baixar o \"Estoque antes (CSV)\"."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Cancelamento de venda já finalizada: botão \"Cancelar venda\" ao abrir a venda em Fechadas (exige motivo e usuário/senha de quem tem permissão de cancelar). Devolve o estoque, estorna os pagamentos no caixa, cancela o fiado e remove a doação. Só com o caixa da venda aberto; fiado já recebido e pagamento TEF exigem providência antes."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Relatórios > aba \"Vendas\": lista as vendas finalizadas e as canceladas (quem cancelou, quem autorizou, quando e o motivo), com filtro Todas / Só finalizadas / Só canceladas, totais e CSV."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Manutenção > Importar estoque: nova opção \"Produtos que NÃO estão no arquivo\": manter o estoque como está ou zerar (com aviso de quantos serão zerados e registro no histórico/auditoria)."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Devolução parcial: na venda finalizada, botão \"Devolução\" para devolver só alguns produtos (quantidade por produto). O estoque volta, o valor sai do caixa na forma escolhida (ou reduz o fiado) e a venda fica com itens/total reduzidos. Exige motivo e usuário/senha; aparece no relatório de vendas como \"Devolvido\"."
   }
  ]
 }
