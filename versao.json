@@ -1,18 +1,14 @@
 {
- "versao": "1.1.42",
+ "versao": "1.1.43",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.42.zip",
- "sha256": "431f3fb60f61e64491a15260e57e52a1f2c286f639b459de42eed8facb632708",
- "tamanho": 1785903,
- "assinatura": "ztghMne8ujxmcP79NnJhkNwq4ob0I8VenDbEHdA8QD0+tojQ/pyJ5/YZ2BqLmCpUBjb+1YwVbNypiD+u1jiRAQ==",
+ "arquivo": "atualizacao-1.1.43.zip",
+ "sha256": "8e9595daba9625baa57c2d79fcdfe5727ae97df20df93e61d6258de68198abef",
+ "tamanho": 1787605,
+ "assinatura": "Cwih3lvyWJZagWtm4c91t+rGpD5yiDKKOIoN1z5l6ccEiVDV6ArC+Avrxd8zKWERzbLeTQS3wr5focLGTexfAw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Saiu do menu o item \"Receber fiado\" (grupo Outros). O recebimento é feito só em Financeiro > Contas a receber, e TODA conta a receber (fiado ou lançamento manual) agora entra no caixa aberto, com a forma de pagamento escolhida (e TEF) e comprovante."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Fechamento e resumo do caixa: nova seção \"Contas a receber recebidas neste caixa\" com o resumo por forma de pagamento (quantidade e valor, com total) e o detalhe de cada recebimento (hora, cliente, forma, valor). Também sai no comprovante impresso do fechamento."
+   "texto": "Contas a receber: caixinha em cada título e \"Selecionar todas\" para baixar várias contas de uma só vez (botão \"Receber selecionadas\"), na mesma forma de pagamento e no mesmo caixa, com um comprovante único. Também há o botão \"Receber tudo\" em cada cliente do Total por cliente."
   }
  ]
 }
