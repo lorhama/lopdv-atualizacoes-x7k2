@@ -1,14 +1,18 @@
 {
- "versao": "1.1.21",
+ "versao": "1.1.22",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.21.zip",
- "sha256": "caf8d94a2c7e9eff4aded226a10115e58cf8480432365c70e97e549f70b7aa49",
- "tamanho": 1747872,
- "assinatura": "czOzzJA6xMJV3QisRJBuleHjWgaVdwpMuH52+LqaX5dGh811V7vezbNJjbxnXe9jnWtpg9pqpJIKGo/4bsXhBg==",
+ "arquivo": "atualizacao-1.1.22.zip",
+ "sha256": "34af206987d57de604bfac1ff3fde8af5132fb9b8230d3eee6653010eaa9554f",
+ "tamanho": 1751001,
+ "assinatura": "6dFdUHHz/a8urBfZGeTR3V1j+Vomvr1buEqiPnPuXqKnh6tjJBLWYQK26WVdhfEwXxaVakGRdJ31XkwFDMGiAQ==",
  "notas": [
   {
+   "tipo": "correcao",
+   "texto": "Abas internas: corrigido o ✕ de fechar aba, que deixava a tela em branco e não fechava; agora fecha a aba e mostra a aba vizinha (ou o Painel, se for a última)."
+  },
+  {
    "tipo": "melhoria",
-   "texto": "Visual: abas internas com mais destaque (aba ativa na cor do sistema, abas inativas em tom mais forte); e a lista de produtos nos campos de busca (entrada, ajuste de estoque, produção, relatórios etc.) deixou de ser o balão escuro do navegador: agora é uma lista clara, com cada produto separado, que filtra enquanto você digita e aceita setas + Enter. O leitor de código de barras continua funcionando como antes."
+   "texto": "Item genérico no caixa, escolha no bar: no cadastro do produto (ex.: \"Refrigerante\", \"Água\") há o campo \"Bebidas que este item pode ser\" (Coca lata, Coca Zero, Soda, Sukita, Guaraná...). O caixa vende só o item genérico com um preço; na tela Cozinha / Bar, ao marcar \"Retirado\", o bar informa quantas de cada bebida saíram (a soma precisa fechar com o que o caixa vendeu) e só essas bebidas baixam do estoque. O custo da venda usa o custo das bebidas escolhidas; a tela mostra o que foi entregue em \"Já retirados hoje\"."
   }
  ]
 }
