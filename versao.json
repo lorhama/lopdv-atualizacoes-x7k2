@@ -1,22 +1,14 @@
 {
- "versao": "1.1.37",
+ "versao": "1.1.38",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.37.zip",
- "sha256": "75a9afc38de4b63ad0d2c931e6f52f6872e3bb5a8a5340840b825fb3e65ac841",
- "tamanho": 1781341,
- "assinatura": "/AbWwAPVIzygY6ddVWKv97iCFFiSgV+C4FP5mdUCuH8IAfEHdOj3JaOHL4M0JC1LgYmXAR6FJUsNtWg9bXg6Dw==",
+ "arquivo": "atualizacao-1.1.38.zip",
+ "sha256": "38e2bc3c978b39b5c9de8b91277878c6889c0a1487bcafd523e66f421adfb9df",
+ "tamanho": 1781479,
+ "assinatura": "Puh2g339gCnu69v12w+C+MgvtNNVBx7I85HoWlJLog811HoX3zGwnJKDkw7g/DbMZpWZyWTKP6vpw2Bv9GjnCQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Venda no fiado: a opção \"Imprimir comprovante do fiado\" agora vem DESMARCADA por padrão e a caixinha fica colada ao texto."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "A janela de Receber (finalização) e as demais janelas abrem somente na aba que as chamou: dá para trocar para outra tela de venda e continuar vendendo enquanto a finalização fica aguardando na sua aba."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Atualizar a página (F5) ou a janela não fecha mais as abas: todas as abas abertas voltam como estavam e cada aba de Vendas reabre direto na sua venda em andamento. Só fechar o sistema ou sair (logout) limpa as abas."
+   "texto": "Todos os relatórios de vendas (Vendas, Ticket médio, Lucratividade e Mais vendidos) ganharam o filtro \"Forma de pagamento\". Ao escolher uma forma, entram só as vendas que tiveram pagamento nela (a venda aparece com o valor total, mesmo que parte tenha sido paga em outra forma)."
   }
  ]
 }
