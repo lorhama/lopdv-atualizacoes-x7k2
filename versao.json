@@ -1,14 +1,22 @@
 {
- "versao": "1.1.36",
+ "versao": "1.1.37",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.36.zip",
- "sha256": "91f5dc2b69c7e7d4426d50c6229d0935b1f2f8b1167a083068439c8154c4a9e3",
- "tamanho": 1780500,
- "assinatura": "cXq91Lj7e1Y6b/RHIoZ9Z2rUpQ3ZZ3uwZlC5W1LU7c5WuPGukAcobi3GnDbIRv196lgMQGIHMElP/WBLixHfBg==",
+ "arquivo": "atualizacao-1.1.37.zip",
+ "sha256": "75a9afc38de4b63ad0d2c931e6f52f6872e3bb5a8a5340840b825fb3e65ac841",
+ "tamanho": 1781341,
+ "assinatura": "/AbWwAPVIzygY6ddVWKv97iCFFiSgV+C4FP5mdUCuH8IAfEHdOj3JaOHL4M0JC1LgYmXAR6FJUsNtWg9bXg6Dw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Promoções \"leve vários por um preço\" (ex.: 2 por R$ 10,00): em Cadastros > Promoções escolha o tipo \"Leve vários por um preço\", informe a quantidade e o preço do conjunto, com data e horário. Na venda, a cada N unidades do produto (mesmo lançadas em momentos diferentes) o conjunto sai pelo preço da promoção; as unidades que sobram saem ao preço normal. O cardápio mostra \"🏷️ 2 por R$ 10,00\"."
+   "texto": "Venda no fiado: a opção \"Imprimir comprovante do fiado\" agora vem DESMARCADA por padrão e a caixinha fica colada ao texto."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "A janela de Receber (finalização) e as demais janelas abrem somente na aba que as chamou: dá para trocar para outra tela de venda e continuar vendendo enquanto a finalização fica aguardando na sua aba."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Atualizar a página (F5) ou a janela não fecha mais as abas: todas as abas abertas voltam como estavam e cada aba de Vendas reabre direto na sua venda em andamento. Só fechar o sistema ou sair (logout) limpa as abas."
   }
  ]
 }
