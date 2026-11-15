@@ -1,14 +1,14 @@
 {
- "versao": "1.1.45",
+ "versao": "1.1.46",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.45.zip",
- "sha256": "ecae84bb670bad0a9424f8ece1543345635bad1d81eac757e8281e4a08fcaa20",
- "tamanho": 1788749,
- "assinatura": "kx5o4hDEI39I2clyU2uJD4zNI52wz4HAl6fYJQJADaEcjk00v2unH7AQJRpQd+GyMs6w7o2myVQWeBzCJYy1AA==",
+ "arquivo": "atualizacao-1.1.46.zip",
+ "sha256": "b12eac8ecb00e4db53aedfe6f14288dcffc8f903106c944ba9f3fda20d48ac7e",
+ "tamanho": 1788752,
+ "assinatura": "Wk9c3lEF4UGizAtLsPbupLcLKXExyRD43CNyUBh6cQjmSgifasLC8csKnWY1aM8QCxq7c/EE2Eh8lNJNpE7GBw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Sangria e suprimento agora pedem a forma de pagamento (de que forma foi paga/recebida). Só a de dinheiro mexe na gaveta; as outras formas abatem/somam na própria forma na conferência. No fechamento (tela e comprovante impresso) cada sangria e suprimento aparece detalhado: hora, tipo, forma, motivo, responsável e valor, com o resumo por forma."
+   "texto": "Fechamento de caixa: o campo Troco (valor de abertura) agora é o primeiro a ser lançado, antes do Dinheiro e das demais formas (também na conferência e no comprovante)."
   }
  ]
 }
