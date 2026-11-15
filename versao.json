@@ -1,42 +1,26 @@
 {
- "versao": "1.1.26",
+ "versao": "1.1.27",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.26.zip",
- "sha256": "da908cf247486d6872fe219445d152f33730309c535e9ccf551a5b48483ce1b0",
- "tamanho": 1762516,
- "assinatura": "iyq2nGVMC3b05p6J0b7uyqEgsjjVMXS3wSEZFOf95qSSh8bQ4nyvS2h6Z/IF5ledOniA6L7k7p8Oxufd9EScBw==",
+ "arquivo": "atualizacao-1.1.27.zip",
+ "sha256": "6e4f965af23dc6090c3ccb54d3d268d1b0bc985cf8abd33640cfb2485c1f0132",
+ "tamanho": 1763826,
+ "assinatura": "o78jqlfmMs4CXs9vqcCPhS1dFkPZ/liqNpr4maOFjMZTj6hQVnGuPTPu/yF8YvtqOXdZkuL5psHq2iq0xpVjBw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Segurança: todo cancelamento (item, venda aberta, venda finalizada) agora exige motivo e usuário/senha de quem tem permissão de cancelar; fica registrado quem cancelou e quem autorizou."
+   "texto": "Impressoras: o sistema agora identifica impressoras virtuais do Windows (PDF, XPS, OneNote) que só \"salvam arquivo em Documentos\", avisa na lista de escolha e recusa imprimir nelas com mensagem clara."
   },
   {
    "tipo": "correcao",
-   "texto": "Cancelamento de venda finalizada: conferido que o estoque volta e o financeiro (caixa e fiado) é estornado; também corrigido para respeitar devoluções parciais já feitas."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Entrada manual por foto: agora reconhece imagem/planilha simples com as colunas PRODUTO, QUANTIDADE e VALOR UNITÁRIO (antes só reconhecia nota fiscal/cupom). O que não aparecer na linha (quantidade ou valor) entra zerado para você preencher, em vez de a linha ser descartada."
+   "texto": "Cancelar venda finalizada: os itens ainda pendentes na cozinha/bar agora saem da tela de produção (e a cozinha/bar recebe o aviso de cancelado se o pedido já tinha sido impresso). Vendas já canceladas antes também deixam de aparecer pendentes na produção."
   },
   {
    "tipo": "melhoria",
-   "texto": "Balanço: ao iniciar, o sistema guarda automaticamente a foto do estoque de todos os produtos e faz um backup do banco. Se algo der errado, o botão \"Desfazer\" no histórico restaura o estoque que havia antes do balanço (vendas e entradas feitas depois são mantidas), com motivo e registro na auditoria. Também dá para baixar o \"Estoque antes (CSV)\"."
+   "texto": "Telas que pedem validação de senha: Enter no usuário vai para a senha; Enter na senha vai para o botão de confirmar (outro Enter confirma). Vale para todas as janelas de autorização."
   },
   {
    "tipo": "melhoria",
-   "texto": "Cancelamento de venda já finalizada: botão \"Cancelar venda\" ao abrir a venda em Fechadas (exige motivo e usuário/senha de quem tem permissão de cancelar). Devolve o estoque, estorna os pagamentos no caixa, cancela o fiado e remove a doação. Só com o caixa da venda aberto; fiado já recebido e pagamento TEF exigem providência antes."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Relatórios > aba \"Vendas\": lista as vendas finalizadas e as canceladas (quem cancelou, quem autorizou, quando e o motivo), com filtro Todas / Só finalizadas / Só canceladas, totais e CSV."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Manutenção > Importar estoque: nova opção \"Produtos que NÃO estão no arquivo\": manter o estoque como está ou zerar (com aviso de quantos serão zerados e registro no histórico/auditoria)."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Devolução parcial: na venda finalizada, botão \"Devolução\" para devolver só alguns produtos (quantidade por produto). O estoque volta, o valor sai do caixa na forma escolhida (ou reduz o fiado) e a venda fica com itens/total reduzidos. Exige motivo e usuário/senha; aparece no relatório de vendas como \"Devolvido\"."
+   "texto": "Tela Cozinha / Bar: atualização automática a cada 10 segundos (antes 5)."
   }
  ]
 }
