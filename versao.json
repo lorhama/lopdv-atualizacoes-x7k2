@@ -1,14 +1,14 @@
 {
- "versao": "1.1.43",
+ "versao": "1.1.44",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.43.zip",
- "sha256": "8e9595daba9625baa57c2d79fcdfe5727ae97df20df93e61d6258de68198abef",
- "tamanho": 1787605,
- "assinatura": "Cwih3lvyWJZagWtm4c91t+rGpD5yiDKKOIoN1z5l6ccEiVDV6ArC+Avrxd8zKWERzbLeTQS3wr5focLGTexfAw==",
+ "arquivo": "atualizacao-1.1.44.zip",
+ "sha256": "7c634631c3de7be7c9627a48c55b7dc334c528d2c7f673ec9c8b484f3ab525d0",
+ "tamanho": 1787883,
+ "assinatura": "5OwzaSBIbG4+oWStA1RwBz/dbLxw7hNrb6QlwftNUWvLcwh5GcXxprv+1iyQfF1zSw7G5eBp//N8KrVdPsbWAQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Contas a receber: caixinha em cada título e \"Selecionar todas\" para baixar várias contas de uma só vez (botão \"Receber selecionadas\"), na mesma forma de pagamento e no mesmo caixa, com um comprovante único. Também há o botão \"Receber tudo\" em cada cliente do Total por cliente."
+   "texto": "Fechamento de caixa: o troco (valor de abertura) agora é informado em campo próprio (\"Troco\"), e o campo Dinheiro conta somente o dinheiro das vendas e recebimentos. A conferência, o comprovante e o resumo mostram as duas linhas. Caixas fechados antes continuam como estavam."
   }
  ]
 }
