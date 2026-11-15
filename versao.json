@@ -1,18 +1,14 @@
 {
- "versao": "1.1.17",
+ "versao": "1.1.18",
  "data": "14/11/2026",
- "arquivo": "atualizacao-1.1.17.zip",
- "sha256": "d6002fcf2dc232c36e505247264c284298acdc2972ea8256a38f1a9d3175f4ed",
- "tamanho": 1745071,
- "assinatura": "fwEWsMZ1jjcSoq279RLW2ESfoiiIgpV/IbBLyU816crIkOGCyX90tbPnCxgs7c0M4CXtHAbFY4iI5UKNJO4HBw==",
+ "arquivo": "atualizacao-1.1.18.zip",
+ "sha256": "4f5faa92349d8ea9cc6a62985f5aacfd66d29f92beda5154ad195272108d18eb",
+ "tamanho": 1746556,
+ "assinatura": "04Ahr7qpLEEsf7LDfJBdlfwogizSCfEYf7bWVPWZDUAnQdxmyGxH2/Si5bhDBwMMOw0H3mQfDZsvPhWWXLcRDg==",
  "notas": [
   {
    "tipo": "melhoria",
-   "texto": "Confirmar cadastro e Amarrar saíram da tela de Produtos e ficam só na Entrada de mercadoria, na nova aba \"Cadastros pendentes\". O produto criado pela entrada já nasce com os dados da nota (origem com série/nº da nota e fornecedor, código do produto no fornecedor, código de barras do XML, custo e estoque). Na tela de Produtos você ainda pode editar os dados cadastrais."
-  },
-  {
-   "tipo": "melhoria",
-   "texto": "Novo módulo Manutenção (menu próprio, permissão \"Módulo Manutenção\"): alteração em massa de produtos (categoria, destino, preço por valor ou %, estoque mínimo, vendável, situação) e de fornecedores; importação de tabela de preços (CSV com código reduzido e preço) e importação de estoque (CSV com código de barras e quantidade, lançada como ajuste de estoque). As duas importações têm arquivo modelo para baixar e mostram uma prévia antes de gravar."
+   "texto": "Manutenção, importações de preços e de estoque: o sistema confere se cada código existe e gera um arquivo de contrapartida (CSV) com o que foi importado, o que NÃO foi importado (e o motivo) e os produtos cadastrados que não vieram no arquivo; baixa a conferência antes de gravar e o relatório final ao importar. Dois modelos: com todos os produtos cadastrados (valores atuais) e em branco. Na importação de estoque, produto sem código de barras pode ser identificado pelo código reduzido."
   }
  ]
 }
