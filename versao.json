@@ -1,18 +1,26 @@
 {
- "versao": "1.1.15",
+ "versao": "1.1.16",
  "data": "14/11/2026",
- "arquivo": "atualizacao-1.1.15.zip",
- "sha256": "06d3a813dc6c5ff1393679868af38a8e97ec03c29e47ddf8888b8651d3dcee5d",
- "tamanho": 1731081,
- "assinatura": "4C7fhnyBzq2XN/gr0duHRy9snvui95ReFXULFeFKZJI+XIUZM21c9aMJzCNFTE4EsrUTmpn5ET4VFSEG/sScDw==",
+ "arquivo": "atualizacao-1.1.16.zip",
+ "sha256": "bde2365176ab0f14a006b5cc24e27939111066fd1d090ff18dfa2e960d910121",
+ "tamanho": 1733256,
+ "assinatura": "F8nxVI80gxKJF7etNFyc84JqGT3P/Omk2ivQp3xQ06G6n10qJa6zDKd3+6VCJSjkTxOZHaDvfFtBrs2k8D5GDw==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Entrada por foto/PDF: linhas com quantidade ou total ilegíveis (caneta, rasura) não são mais descartadas — aparecem com a quantidade em branco para você digitar. Também confere o total e a quantidade do rodapé da nota com o que foi lido e avisa quanto falta, tem o botão \"＋ Incluir item não lido\" e a foto é ampliada e tem a caneta azul atenuada antes da leitura."
+   "texto": "Tela de entrada: Enter no campo do número do usuário agora pula para o campo Senha; só o Enter na senha (ou o botão Entrar) faz o login."
   },
   {
    "tipo": "melhoria",
-   "texto": "Tela de entrada: o campo Usuário não lista mais os usuários cadastrados; informe apenas o número do usuário. A lista pública de usuários foi removida do servidor (segurança)."
+   "texto": "Menu lateral: ao abrir um grupo (ou clicar em uma tela), os outros grupos recolhem; fica aberto só o grupo em uso."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Entrada por foto/PDF: se o CNPJ do fornecedor está na nota e não está cadastrado, o fornecedor é cadastrado automaticamente (você confere o nome); se a nota não traz o CNPJ do fornecedor, o sistema exige escolher um fornecedor cadastrado. O CNPJ da própria empresa nunca é tomado como fornecedor."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Toda entrada (manual, XML, foto/PDF e acerto de consignação) agora registra a série e o número da nota; aparecem na entrada, no relatório de entradas (coluna e CSV), na consignação e na movimentação de estoque."
   }
  ]
 }
