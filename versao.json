@@ -1,14 +1,14 @@
 {
- "versao": "1.1.35",
+ "versao": "1.1.36",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.35.zip",
- "sha256": "b50b51b0c52928f2f4332bd194066f38fffbb5e0cf741f5c2234e25357a82a80",
- "tamanho": 1778702,
- "assinatura": "4rZfLNYC0SdBFaYSCZycZOdyq+VyPojtiWs6cDHh3Ast07jsL+DwuXEaSzW0D2+6IN/q+0Tumu2gwBoQJfRTBQ==",
+ "arquivo": "atualizacao-1.1.36.zip",
+ "sha256": "91f5dc2b69c7e7d4426d50c6229d0935b1f2f8b1167a083068439c8154c4a9e3",
+ "tamanho": 1780500,
+ "assinatura": "cXq91Lj7e1Y6b/RHIoZ9Z2rUpQ3ZZ3uwZlC5W1LU7c5WuPGukAcobi3GnDbIRv196lgMQGIHMElP/WBLixHfBg==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Promoções (Cadastros > Promoções): preço promocional (R$) ou desconto (%) para um ou vários produtos, com data e horário de início e de fim. Dentro do período a venda usa o preço promocional automaticamente (aparece riscado no cardápio da venda); fora dele volta ao normal. Mostra vigentes, agendadas e encerradas, e dá para desativar, editar ou excluir."
+   "texto": "Promoções \"leve vários por um preço\" (ex.: 2 por R$ 10,00): em Cadastros > Promoções escolha o tipo \"Leve vários por um preço\", informe a quantidade e o preço do conjunto, com data e horário. Na venda, a cada N unidades do produto (mesmo lançadas em momentos diferentes) o conjunto sai pelo preço da promoção; as unidades que sobram saem ao preço normal. O cardápio mostra \"🏷️ 2 por R$ 10,00\"."
   }
  ]
 }
