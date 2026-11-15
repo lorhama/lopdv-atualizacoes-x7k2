@@ -1,34 +1,14 @@
 {
- "versao": "1.1.33",
+ "versao": "1.1.34",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.33.zip",
- "sha256": "6c3a593115fd7026f981cb645263acadc4bb53e03b1ef86565e30df70355d4df",
- "tamanho": 1775014,
- "assinatura": "1p7YHxzHh2v4eP6tT/++hpKqbInUhePOXMrn/iJP4RT0aoSdhd2LZqZ1/zCU6o+Y/m0QKRotgQ+ULw9ZYPmvBw==",
+ "arquivo": "atualizacao-1.1.34.zip",
+ "sha256": "b3035ce407b030a27c18bfbbd3d58ccb6f78dcd5ef2e63fdbc268a17c5e2cd04",
+ "tamanho": 1774813,
+ "assinatura": "U+cevP13MC02fkapl2vL+J8voc403D63Z2PdOy/k7IBLp4Hm+9SOtVMo8t0HmsfQ+TDmuFwCzbasbFapFQ5MBQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Brincadeiras: cada unidade lançada sai em um ticket separado (4 unidades = 4 tickets, cada um com \"1x\" e a marcação Ficha 1/4, 2/4...). Vale também na reimpressão."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Vendas: dá para atender mais de uma venda ao mesmo tempo. Botão \"⧉ Outra venda\" na tela de venda abre uma nova aba só para outra venda (cada aba com a sua venda; uma não puxa a venda da outra)."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Vendas em andamento, finalizadas e canceladas agora aparecem em lista (tabela com filtro), com o botão \"Ver itens\" que mostra os itens da venda e o botão Abrir/Continuar."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Venda no fiado: o comprovante do cliente agora é opcional (caixinha \"Imprimir comprovante do fiado\" ao finalizar) e traz somente os itens daquela venda, o total no fiado, o vencimento e a assinatura do cliente."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Contas a receber: busca por cliente (e fornecedor em Contas a pagar), mostra o saldo em aberto quando o fiado foi pago em parte e o botão \"Ver itens\" da venda de cada fiado."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Cadastro de usuário: nova opção \"Pode retirar no fiado (paga no final)\". Ligada, o funcionário vira cliente e pode ser escolhido na venda fiado; desligada, não aceita novo fiado. A importação de equipe já liga a opção para os novos."
+   "texto": "Toda a equipe também é cliente: ao atualizar, todos os usuários já cadastrados viram clientes (sem duplicar quem já era cliente com o mesmo nome/CPF), e todo usuário novo (cadastro, importação) já entra como cliente, acompanhando nome, CPF, telefone, e-mail e situação ativo/inativo. Quem pode retirar no fiado continua controlado pela opção \"Pode retirar no fiado\" do cadastro do usuário."
   }
  ]
 }
