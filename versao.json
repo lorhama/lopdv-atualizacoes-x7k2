@@ -1,18 +1,22 @@
 {
- "versao": "1.1.31",
+ "versao": "1.1.32",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.31.zip",
- "sha256": "fc168b3d608f68a76c62095d8b44dc9a3e2c8c78d667a3ec91a6966649268ca2",
- "tamanho": 1770691,
- "assinatura": "6NCiRsbq8RoWWzHwMhAaqIaix1kwK2RsSw24PVrt5oiAFVHbPKIvRnzBlnDhI4ZZSsAfPtyf1ATwduJ3fhhzDQ==",
+ "arquivo": "atualizacao-1.1.32.zip",
+ "sha256": "452dbf716bf668b9918becff2ed3dc997d00ef857db534bba7e27a1d79c4e491",
+ "tamanho": 1772062,
+ "assinatura": "uNORqewQJTQqWtq6wtJdSu4YygeXM6C4Ir4hQ6Z+K/nD23aCVRFupqygMlo/QR5ovxGnkrru5boFRasTK96GAA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Ticket de cozinha, bar e brincadeiras agora imprime o código do produto, a quantidade e o nome (ex.: P009 3x Pescaria)."
+   "texto": "Vendas: dá para editar a quantidade de um item já lançado (botão ✎ na linha do item). Item novo: livre. Item já enviado: aumentar é livre; diminuir é cancelamento parcial e pede motivo + usuário/senha (administrador dispensa). Item já impresso não pode ser editado."
   },
   {
    "tipo": "correcao",
-   "texto": "Importar equipe: cada pessoa importada também é cadastrada como cliente (observação \"Equipe\"), para retirar consumo e pagar no final. Quem já é cliente (mesmo nome ou CPF) não é duplicado."
+   "texto": "Ticket de brincadeiras diferenciado: tudo centralizado, título BRINCADEIRA em letra grande e os itens (código, quantidade e nome) em letra mais alta que a dos tickets de cozinha/bar."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Ajuste de estoque (avulso): nova opção \"Como lançar\": Sobrepor (informa o total contado e substitui o estoque) ou Somar (informa quanto acrescentar ao estoque existente). A tela mostra como o estoque vai ficar antes de lançar."
   }
  ]
 }
