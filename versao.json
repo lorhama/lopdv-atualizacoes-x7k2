@@ -1,14 +1,14 @@
 {
- "versao": "1.1.19",
+ "versao": "1.1.20",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.19.zip",
- "sha256": "a605d20430c1331a28190f5abfc6ce830f43da27696293158c79e0ef78f86819",
- "tamanho": 1746347,
- "assinatura": "VffXANo3VdlKmI1T3ofHbv+8FQ/G/8kPfDWE+8lSG2VsZ1Us18gb656omgZele8rvNcQB37Nl9pf/uzJdFlLDw==",
+ "arquivo": "atualizacao-1.1.20.zip",
+ "sha256": "4cda13d2dc17a645ff3118fddc4473e194e6aa9758b2266c740b4bf8cca6baf2",
+ "tamanho": 1746811,
+ "assinatura": "svEZGtAMQ4XYnNR8vCJ+4/+cGsz8gZBXnZyZ4536M8Rg0hd/cpfFNsi3QPVxI5nhEa+Og1Qt6FWQwCXbJfrMAg==",
  "notas": [
   {
    "tipo": "melhoria",
-   "texto": "Sistema multi abas: cada tela (Vendas, Acerto de estoque, Entrada de mercadoria...) abre numa aba própria, com o que você estava fazendo preservado ao trocar de aba (uma venda em andamento continua aberta). Fechar aba com ✕; até 10 abas."
+   "texto": "Abas internas: clique com o botão direito num item do menu abre \"Abrir\" / \"Abrir em nova aba\" (também Ctrl+clique e botão do meio); a mesma tela pode ficar aberta em mais de uma aba, tudo dentro do próprio sistema, sem abrir outra janela do navegador (que pedia usuário e senha)."
   }
  ]
 }
