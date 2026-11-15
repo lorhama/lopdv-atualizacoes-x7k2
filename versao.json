@@ -1,14 +1,14 @@
 {
- "versao": "1.1.20",
+ "versao": "1.1.21",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.20.zip",
- "sha256": "4cda13d2dc17a645ff3118fddc4473e194e6aa9758b2266c740b4bf8cca6baf2",
- "tamanho": 1746811,
- "assinatura": "svEZGtAMQ4XYnNR8vCJ+4/+cGsz8gZBXnZyZ4536M8Rg0hd/cpfFNsi3QPVxI5nhEa+Og1Qt6FWQwCXbJfrMAg==",
+ "arquivo": "atualizacao-1.1.21.zip",
+ "sha256": "caf8d94a2c7e9eff4aded226a10115e58cf8480432365c70e97e549f70b7aa49",
+ "tamanho": 1747872,
+ "assinatura": "czOzzJA6xMJV3QisRJBuleHjWgaVdwpMuH52+LqaX5dGh811V7vezbNJjbxnXe9jnWtpg9pqpJIKGo/4bsXhBg==",
  "notas": [
   {
    "tipo": "melhoria",
-   "texto": "Abas internas: clique com o botão direito num item do menu abre \"Abrir\" / \"Abrir em nova aba\" (também Ctrl+clique e botão do meio); a mesma tela pode ficar aberta em mais de uma aba, tudo dentro do próprio sistema, sem abrir outra janela do navegador (que pedia usuário e senha)."
+   "texto": "Visual: abas internas com mais destaque (aba ativa na cor do sistema, abas inativas em tom mais forte); e a lista de produtos nos campos de busca (entrada, ajuste de estoque, produção, relatórios etc.) deixou de ser o balão escuro do navegador: agora é uma lista clara, com cada produto separado, que filtra enquanto você digita e aceita setas + Enter. O leitor de código de barras continua funcionando como antes."
   }
  ]
 }
