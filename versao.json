@@ -1,14 +1,14 @@
 {
- "versao": "1.1.18",
- "data": "14/11/2026",
- "arquivo": "atualizacao-1.1.18.zip",
- "sha256": "4f5faa92349d8ea9cc6a62985f5aacfd66d29f92beda5154ad195272108d18eb",
- "tamanho": 1746556,
- "assinatura": "04Ahr7qpLEEsf7LDfJBdlfwogizSCfEYf7bWVPWZDUAnQdxmyGxH2/Si5bhDBwMMOw0H3mQfDZsvPhWWXLcRDg==",
+ "versao": "1.1.19",
+ "data": "15/11/2026",
+ "arquivo": "atualizacao-1.1.19.zip",
+ "sha256": "a605d20430c1331a28190f5abfc6ce830f43da27696293158c79e0ef78f86819",
+ "tamanho": 1746347,
+ "assinatura": "VffXANo3VdlKmI1T3ofHbv+8FQ/G/8kPfDWE+8lSG2VsZ1Us18gb656omgZele8rvNcQB37Nl9pf/uzJdFlLDw==",
  "notas": [
   {
    "tipo": "melhoria",
-   "texto": "Manutenção, importações de preços e de estoque: o sistema confere se cada código existe e gera um arquivo de contrapartida (CSV) com o que foi importado, o que NÃO foi importado (e o motivo) e os produtos cadastrados que não vieram no arquivo; baixa a conferência antes de gravar e o relatório final ao importar. Dois modelos: com todos os produtos cadastrados (valores atuais) e em branco. Na importação de estoque, produto sem código de barras pode ser identificado pelo código reduzido."
+   "texto": "Sistema multi abas: cada tela (Vendas, Acerto de estoque, Entrada de mercadoria...) abre numa aba própria, com o que você estava fazendo preservado ao trocar de aba (uma venda em andamento continua aberta). Fechar aba com ✕; até 10 abas."
   }
  ]
 }
