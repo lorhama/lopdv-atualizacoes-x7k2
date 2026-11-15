@@ -1,14 +1,26 @@
 {
- "versao": "1.1.23",
+ "versao": "1.1.24",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.23.zip",
- "sha256": "3ff7d95eb9542bcfd6d9c3a13cb665b99a9ddc857df0c199a4b5bc8ade013fb7",
- "tamanho": 1751043,
- "assinatura": "bZQh+jHwu3Raw1hnlTL1XGsI9yg6I7VqIMjdbwI2Vd9sPMbxjWSAGyoXIoH0dALWK4k4efrEgBIKsHYfFNMxDA==",
+ "arquivo": "atualizacao-1.1.24.zip",
+ "sha256": "2f772659f339dc105fe07338ad56a3ccab8a12a297812797b48fb3c932123bcc",
+ "tamanho": 1754318,
+ "assinatura": "HTmbyOzHrdM+O+4HG0YoSRL+WQtLPZtM/Hhu2oR0slWnfEHNUqz/TQlfSuRM346eTvOJ9VNiZnCjEcIJ9M78DQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Corrigido: depois de salvar, editar, excluir ou inativar em Usuários (Equipe), Perfis, Configurações e telas fiscais, a lista não atualizava (efeito das abas) e o cadastro parecia não ter sido salvo; agora a tela recarrega na hora."
+   "texto": "Autorizações com usuário e senha (reabrir caixa, estoque negativo, descontos, cancelamentos etc.) agora aceitam o número do usuário, o mesmo usado para entrar no sistema; antes só aceitavam o login e davam \"usuário ou senha inválidos\"."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Corrigido erro no servidor ao abrir o fechamento de caixa com produção pendente (\"cli.query is not a function\" no registro de erros)."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Impressoras: cada impressora tem a largura da bobina (80 mm — cupom fiscal padrão, ou 58 mm — bobina de máquina de cartão, com 32 colunas). Pedidos da cozinha/bar, conta, fechamento de caixa e comprovantes saem na largura de cada impressora (textos mais largos são ajustados ao papel de 58 mm). Nova opção \"Economizar papel\" (ligada por padrão): corte sem linhas em branco sobrando e pedido de cozinha/bar compacto (cabeçalho numa linha só, sem título grande). O botão Testar imprime uma régua de colunas para conferir a largura."
+  },
+  {
+   "tipo": "melhoria",
+   "texto": "Configurações → Acesso dos terminais: agora destaca o endereço certo para as outras máquinas (placa Wi-Fi/cabo, ex.: 192.168.x.x) e marca como \"não serve\" os endereços de VPN (Radmin, Hamachi) e adaptadores virtuais (WSL, Hyper-V). O registro do servidor também indica qual usar."
   }
  ]
 }
