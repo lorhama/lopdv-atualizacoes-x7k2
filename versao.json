@@ -1,14 +1,14 @@
 {
- "versao": "1.1.34",
+ "versao": "1.1.35",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.34.zip",
- "sha256": "b3035ce407b030a27c18bfbbd3d58ccb6f78dcd5ef2e63fdbc268a17c5e2cd04",
- "tamanho": 1774813,
- "assinatura": "U+cevP13MC02fkapl2vL+J8voc403D63Z2PdOy/k7IBLp4Hm+9SOtVMo8t0HmsfQ+TDmuFwCzbasbFapFQ5MBQ==",
+ "arquivo": "atualizacao-1.1.35.zip",
+ "sha256": "b50b51b0c52928f2f4332bd194066f38fffbb5e0cf741f5c2234e25357a82a80",
+ "tamanho": 1778702,
+ "assinatura": "4rZfLNYC0SdBFaYSCZycZOdyq+VyPojtiWs6cDHh3Ast07jsL+DwuXEaSzW0D2+6IN/q+0Tumu2gwBoQJfRTBQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Toda a equipe também é cliente: ao atualizar, todos os usuários já cadastrados viram clientes (sem duplicar quem já era cliente com o mesmo nome/CPF), e todo usuário novo (cadastro, importação) já entra como cliente, acompanhando nome, CPF, telefone, e-mail e situação ativo/inativo. Quem pode retirar no fiado continua controlado pela opção \"Pode retirar no fiado\" do cadastro do usuário."
+   "texto": "Promoções (Cadastros > Promoções): preço promocional (R$) ou desconto (%) para um ou vários produtos, com data e horário de início e de fim. Dentro do período a venda usa o preço promocional automaticamente (aparece riscado no cardápio da venda); fora dele volta ao normal. Mostra vigentes, agendadas e encerradas, e dá para desativar, editar ou excluir."
   }
  ]
 }
