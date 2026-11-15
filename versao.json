@@ -1,18 +1,22 @@
 {
- "versao": "1.1.29",
+ "versao": "1.1.30",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.29.zip",
- "sha256": "ca0c2ca15c5bd17ab87b1e0d79859c44dfccc0a51273fea569a827f2e034fec4",
- "tamanho": 1768739,
- "assinatura": "vk1x0+N4ki9U8OgThOsO0QMS45NoFBiSGV56mT82NNTJfIXkadP5MF8g7biGqIPphvb4MQBPLSOFjkQYalTSAw==",
+ "arquivo": "atualizacao-1.1.30.zip",
+ "sha256": "f755f0c28e06b1622bb8aa0e7531ebd413ef3eb97ba1dbefb16b0f6d25d0119e",
+ "tamanho": 1770090,
+ "assinatura": "ERn37zJNe8ByPe5aJfsxWQpa8d3Wdv1rBNvFdV2iPLJMuZjAn70Kkj9v/oSgxxHIV7XPf1BkJAymTBInLCkFBw==",
  "notas": [
   {
-   "tipo": "melhoria",
-   "texto": "Manutenção > Importar equipe: cadastra/atualiza usuários por CSV. Arquivo padrão com nome e CPF (só o nome é obrigatório; login, senha, cargo, telefone, e-mail e ativo opcionais). O que não vier no arquivo fica em branco (em usuário existente, o dado atual é mantido). Usuário novo sem senha no arquivo recebe a senha padrão 1234; quem já existe mantém a senha. CPF validado e único. Prévia, arquivo de contrapartida e auditoria. O cadastro de usuários ganhou o campo CPF."
+   "tipo": "correcao",
+   "texto": "Administrador (acesso total) não precisa mais validar usuário e senha: nas janelas de autorização (cancelamentos, devolução, reabrir caixa, estoque negativo, arredondamento, alterar forma de pagamento, lançar produção) os campos de usuário e senha não aparecem para ele, e a ação fica registrada em nome dele."
   },
   {
-   "tipo": "melhoria",
-   "texto": "Equipe > Perfis e permissões (funções): ao abrir ou criar uma função, dá para marcar os usuários que a exercem (com filtro). Quem estiver em outra função passa para esta; quem for desmarcado fica sem função. A lista mostra quantos usuários há em cada função. Administrador não pode ser movido por aí e você não pode se desvincular da própria função."
+   "tipo": "correcao",
+   "texto": "Novo destino \"Brincadeira\" (pescaria etc.): marque no cadastro do produto (\"Vai para\") e, ao imprimir, sai um ticket separado só com as brincadeiras. Cadastre uma impressora do setor \"Brincadeiras\" (se não houver, imprime na impressora do caixa). Aparece também na tela Cozinha / Bar e na reimpressão."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Vendas: ao lançar um produto abre uma janelinha pedindo a quantidade (Enter confirma, ESC cancela). Dá para desligar em \"Perguntar ao lançar\" ao lado do campo Quantidade; código de barras lança direto."
   }
  ]
 }
