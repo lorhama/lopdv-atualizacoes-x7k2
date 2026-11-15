@@ -1,14 +1,14 @@
 {
- "versao": "1.1.44",
+ "versao": "1.1.45",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.44.zip",
- "sha256": "7c634631c3de7be7c9627a48c55b7dc334c528d2c7f673ec9c8b484f3ab525d0",
- "tamanho": 1787883,
- "assinatura": "5OwzaSBIbG4+oWStA1RwBz/dbLxw7hNrb6QlwftNUWvLcwh5GcXxprv+1iyQfF1zSw7G5eBp//N8KrVdPsbWAQ==",
+ "arquivo": "atualizacao-1.1.45.zip",
+ "sha256": "ecae84bb670bad0a9424f8ece1543345635bad1d81eac757e8281e4a08fcaa20",
+ "tamanho": 1788749,
+ "assinatura": "kx5o4hDEI39I2clyU2uJD4zNI52wz4HAl6fYJQJADaEcjk00v2unH7AQJRpQd+GyMs6w7o2myVQWeBzCJYy1AA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Fechamento de caixa: o troco (valor de abertura) agora é informado em campo próprio (\"Troco\"), e o campo Dinheiro conta somente o dinheiro das vendas e recebimentos. A conferência, o comprovante e o resumo mostram as duas linhas. Caixas fechados antes continuam como estavam."
+   "texto": "Sangria e suprimento agora pedem a forma de pagamento (de que forma foi paga/recebida). Só a de dinheiro mexe na gaveta; as outras formas abatem/somam na própria forma na conferência. No fechamento (tela e comprovante impresso) cada sangria e suprimento aparece detalhado: hora, tipo, forma, motivo, responsável e valor, com o resumo por forma."
   }
  ]
 }
