@@ -1,18 +1,14 @@
 {
- "versao": "1.1.54",
+ "versao": "1.1.55",
  "data": "16/11/2026",
- "arquivo": "atualizacao-1.1.54.zip",
- "sha256": "8ec380525da2fc2282a7112bb9aa7d97db672894a042f98528890a32c9787d26",
- "tamanho": 1798676,
- "assinatura": "fISVUg+zH+wiBvphv8VJV8NE1CG7alsaEy3YZ+g/BWI+mzu6k+wpML6M2F3XLXiLxiRs02ZunGJQ0zqwKDKHBA==",
+ "arquivo": "atualizacao-1.1.55.zip",
+ "sha256": "2eb3654f3411133a3a83c9e42046a627ad4c6066dc2cf8b734a92fcca220d52e",
+ "tamanho": 1798787,
+ "assinatura": "lzbjPtvU5NBQgGhQORSqHeEKJhUSCkirHfQWMVj5gY2ovqZ0gaixB5kQT5P9QI5fkMFAlbto/hwnW5UuEwXACQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Todas as movimentações e listas de relatório passam a aparecer em ordem cronológica, do mais antigo para o mais recente (vendas, movimentos e ajustes de estoque, produções, entradas de mercadoria, consignadas, fechamentos de caixa e auditoria)."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "ALTERAÇÃO EM MASSA de clientes e de equipe no módulo Manutenção, e mais campos nas telas de produtos e fornecedores. Equipe ganha o campo \"Também é cliente\" (no cadastro do usuário e na alteração em massa); desmarcar não inativa nem apaga o cliente. Cliente só pode ser inativado manualmente no cadastro dele (não na alteração em massa). Cliente inativo some da tela de vendas, mas continua aparecendo em Contas a receber e Relatórios"
+   "texto": "MENU DE RELATÓRIOS ORGANIZADO POR SEÇÃO: o menu \"Relatórios\" deixou de existir e cada relatório passou para a sua seção. Vendas: Relatórios de vendas (vendas, ticket médio, mais vendidos). Financeiro: Relatórios financeiros (fechamento de caixa, contas a receber, lucratividade). Estoque: posição de estoque, movimentação, extrato do produto e relatório de entradas. Auditoria foi para Configurações"
   }
  ]
 }
