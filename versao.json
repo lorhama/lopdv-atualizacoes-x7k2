@@ -1,18 +1,22 @@
 {
- "versao": "1.1.50",
+ "versao": "1.1.51",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.50.zip",
- "sha256": "0d06517be2139f9bf6b54d736e4f5c2a98f62334d8b07a8d2803ad4db5f29d1c",
- "tamanho": 1793746,
- "assinatura": "eUefC2zbWtMwb2GSqdRfUdBcd+QM4sceYttiMtfAdFMDgp/LXp8g9RFJDuWVvWZKPrcKDdB8j1hFUXq2AbAOBg==",
+ "arquivo": "atualizacao-1.1.51.zip",
+ "sha256": "34bfc6ff9104a6d6bd1b5c5612800eacb8999f515dc15cbbe1dbebc16b804b99",
+ "tamanho": 1793716,
+ "assinatura": "PSigNOzKIVSXXTJv7YcJdXm6LJGQVWtAfaX2qxtjXZE+zP4xRGmO8HKQBr5qgrl1uvhbAiiQiPQO/PO0Q93fBg==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "ESC passa a funcionar como o botão Cancelar/Voltar/Fechar em todas as janelas do sistema (ex.: na finalização da venda, ESC volta para a tela de produtos para incluir mais itens)."
+   "texto": "Comprovante do fechamento do caixa enxuto: só a conferência por forma de pagamento (com totais, diferença e motivo) e o Total do fechamento (entradas − saídas). O resumo detalhado continua disponível na tela e em PDF."
   },
   {
    "tipo": "correcao",
-   "texto": "Comprovante do fechamento: removido o bloco \"Dinheiro na gaveta\" e as linhas repetidas de fiado vendido/recebido (já constam na conferência por forma, no Total do fechamento e na seção de fiado)."
+   "texto": "Relatório detalhado do fechamento do caixa (conferência, total do fechamento, vendas por forma, fiado vendido venda a venda, contas a receber, movimentos de entrada/saída/doação, devoluções), na tela e em PDF, disponível somente no módulo Relatórios (aba Fechamento de caixa → Abrir). Removido o \"Resumo do caixa\" da tela do Caixa."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Reimpressão do fechamento do caixa agora pergunta se você quer Imprimir ou Gerar PDF (a 2ª via em PDF traz a conferência e o Total do fechamento); ESC cancela."
   }
  ]
 }
