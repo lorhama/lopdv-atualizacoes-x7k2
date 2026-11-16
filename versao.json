@@ -1,18 +1,18 @@
 {
- "versao": "1.1.49",
+ "versao": "1.1.50",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.49.zip",
- "sha256": "27fd1f9a94a0d38bdef1711a5164d8e975bc1d91ff48060957196f3407e2bda5",
- "tamanho": 1793538,
- "assinatura": "C7vx7KsBOgXiQ3H8enyZskg0NSBG6AvbgfH+J1CyqWHE4w7ew0ghmDNwJu6BGK+LDQYOgwMr9C6jw3l2EMPdDg==",
+ "arquivo": "atualizacao-1.1.50.zip",
+ "sha256": "0d06517be2139f9bf6b54d736e4f5c2a98f62334d8b07a8d2803ad4db5f29d1c",
+ "tamanho": 1793746,
+ "assinatura": "eUefC2zbWtMwb2GSqdRfUdBcd+QM4sceYttiMtfAdFMDgp/LXp8g9RFJDuWVvWZKPrcKDdB8j1hFUXq2AbAOBg==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "No fechamento do caixa o \"Fiado vendido (a receber)\" agora sai só totalizado (quantidade de vendas e valor total), na tela, no PDF e no comprovante; o detalhe fica no relatório Contas a receber."
+   "texto": "ESC passa a funcionar como o botão Cancelar/Voltar/Fechar em todas as janelas do sistema (ex.: na finalização da venda, ESC volta para a tela de produtos para incluir mais itens)."
   },
   {
    "tipo": "correcao",
-   "texto": "Comprovante do fechamento mais limpo: removidas as linhas repetidas de Saídas/Entradas/Doações e o resumo confuso \"por forma\" dos movimentos (os valores já estão no Total do fechamento); movimentos mostram SAIDA/ENTRADA/DOACAO com forma e motivo. Também removida a seção \"Doações (troco deixado) por local\" do comprovante (o valor segue no Total do fechamento)."
+   "texto": "Comprovante do fechamento: removido o bloco \"Dinheiro na gaveta\" e as linhas repetidas de fiado vendido/recebido (já constam na conferência por forma, no Total do fechamento e na seção de fiado)."
   }
  ]
 }
