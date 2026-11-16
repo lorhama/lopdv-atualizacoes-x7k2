@@ -1,14 +1,18 @@
 {
- "versao": "1.1.48",
+ "versao": "1.1.49",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.48.zip",
- "sha256": "3d481d6872cff12c18e0568bece2405b853ad67e005f19b2c3d4fb5daeee967a",
- "tamanho": 1793343,
- "assinatura": "a6C40HBFnI6tIH/a5Wa3y3HgX3iEP2T1EZ4RrNxNI9C8C/sv3JCK/s4/aQqa+VEff+46N1ZO3Ygjxg5lV3n2CA==",
+ "arquivo": "atualizacao-1.1.49.zip",
+ "sha256": "27fd1f9a94a0d38bdef1711a5164d8e975bc1d91ff48060957196f3407e2bda5",
+ "tamanho": 1793538,
+ "assinatura": "C7vx7KsBOgXiQ3H8enyZskg0NSBG6AvbgfH+J1CyqWHE4w7ew0ghmDNwJu6BGK+LDQYOgwMr9C6jw3l2EMPdDg==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Total do fechamento do caixa = entradas − saídas, sem custo de produto. Entradas: troco de abertura, vendas recebidas (canceladas e fiado ainda não pago ficam de fora), fiado recebido, entradas e doações do movimento de caixa e doações do troco na venda. Saídas: despesas/sangrias e \"Troco retirado\" (informado no fechamento). Aparece na tela, no PDF e no comprovante; vendas canceladas deixaram de aparecer no fechamento."
+   "texto": "No fechamento do caixa o \"Fiado vendido (a receber)\" agora sai só totalizado (quantidade de vendas e valor total), na tela, no PDF e no comprovante; o detalhe fica no relatório Contas a receber."
+  },
+  {
+   "tipo": "correcao",
+   "texto": "Comprovante do fechamento mais limpo: removidas as linhas repetidas de Saídas/Entradas/Doações e o resumo confuso \"por forma\" dos movimentos (os valores já estão no Total do fechamento); movimentos mostram SAIDA/ENTRADA/DOACAO com forma e motivo. Também removida a seção \"Doações (troco deixado) por local\" do comprovante (o valor segue no Total do fechamento)."
   }
  ]
 }
