@@ -1,22 +1,14 @@
 {
- "versao": "1.1.47",
+ "versao": "1.1.48",
  "data": "15/11/2026",
- "arquivo": "atualizacao-1.1.47.zip",
- "sha256": "904fbf34eb3ee50ce54792a2a1c38e8c3ca105e669cc499793bb9d462a2e3daa",
- "tamanho": 1792437,
- "assinatura": "qd1Cz9i4Qn+mj6I0rIOIsOWKWq0ifjLElv6vyg6TB5C2rt35jqfrPXRLsDixc3/VSySgQp7Sl++0HuhtiSj3AQ==",
+ "arquivo": "atualizacao-1.1.48.zip",
+ "sha256": "3d481d6872cff12c18e0568bece2405b853ad67e005f19b2c3d4fb5daeee967a",
+ "tamanho": 1793343,
+ "assinatura": "a6C40HBFnI6tIH/a5Wa3y3HgX3iEP2T1EZ4RrNxNI9C8C/sv3JCK/s4/aQqa+VEff+46N1ZO3Ygjxg5lV3n2CA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Movimento de caixa agora tem três tipos: Entrada, Saída e Doação (recebida no caixa), todos com a forma de pagamento (as formas continuam as mesmas). No fechamento (tela e comprovante) cada movimento aparece detalhado, com totais por forma, e a doação soma na forma em que foi recebida."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Fechamento e resumo do caixa totalmente detalhados: vendas por forma de pagamento, contas a receber recebidas (por forma e uma a uma), fiado vendido, entradas/saídas/doações com forma e responsável, vendas canceladas (com motivo e quem cancelou), devoluções, doações por local e a conta do dinheiro esperado na gaveta. Tudo também no comprovante impresso."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Resumo do caixa agora pode ser gerado em PDF (botão \"Gerar PDF\" no resumo do caixa, no Financeiro e na tela do Caixa), com todos os detalhes do fechamento."
+   "texto": "Total do fechamento do caixa = entradas − saídas, sem custo de produto. Entradas: troco de abertura, vendas recebidas (canceladas e fiado ainda não pago ficam de fora), fiado recebido, entradas e doações do movimento de caixa e doações do troco na venda. Saídas: despesas/sangrias e \"Troco retirado\" (informado no fechamento). Aparece na tela, no PDF e no comprovante; vendas canceladas deixaram de aparecer no fechamento."
   }
  ]
 }
