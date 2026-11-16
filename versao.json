@@ -1,22 +1,14 @@
 {
- "versao": "1.1.52",
+ "versao": "1.1.53",
  "data": "16/11/2026",
- "arquivo": "atualizacao-1.1.52.zip",
- "sha256": "5c34caa2844d3a92ba432e4146234291cf683bcadc6ae2834c1dd1b377fc4e53",
- "tamanho": 1794117,
- "assinatura": "APtSyigS8xzdBzFIuOo8Vx/zA8GVpGkhOH3lJqdgcxw9gVanKKNjJvo3sK3qlsrvSeXDLW4HUNzjMwsWbyxgCw==",
+ "arquivo": "atualizacao-1.1.53.zip",
+ "sha256": "65d4aa5655318f59e678784589978e5764c2670496e439eada4fe333f6e1a4f2",
+ "tamanho": 1794823,
+ "assinatura": "dEzNnrqoYU7A4yc8Z1h1YfgLgef9UAEfmyuLupFEBvCRPdzg2f232WyLZVjh5zJsFA7HLRA/H0rAt2A4UeJ2AA==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "Conferência do fechamento: a linha \"Dinheiro (vendas)\" passa a se chamar só \"Dinheiro\"."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Conferência do fechamento: a linha do troco passa a se chamar \"Troco retirado\" (é o troco retirado do caixa, informado no fechamento)."
-  },
-  {
-   "tipo": "correcao",
-   "texto": "Nome \"Fiado\" trocado por \"Crediário\" em todas as telas, relatórios, PDFs, comprovantes e mensagens (incluindo a forma de pagamento, que passa a se chamar \"Crediário (cliente)\"); o funcionamento não muda."
+   "texto": "Padronização em MAIÚSCULAS em todo o sistema: textos de telas, botões, relatórios e comprovantes aparecem em maiúsculas (exceto senha, e-mail, endereços web e login), e os cadastros que ainda estavam com minúsculas (clientes, produtos, formas de pagamento, usuários, etc.) são convertidos para maiúsculas automaticamente na atualização."
   }
  ]
 }
