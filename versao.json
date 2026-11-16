@@ -1,14 +1,14 @@
 {
- "versao": "1.1.55",
+ "versao": "1.1.56",
  "data": "16/11/2026",
- "arquivo": "atualizacao-1.1.55.zip",
- "sha256": "2eb3654f3411133a3a83c9e42046a627ad4c6066dc2cf8b734a92fcca220d52e",
- "tamanho": 1798787,
- "assinatura": "lzbjPtvU5NBQgGhQORSqHeEKJhUSCkirHfQWMVj5gY2ovqZ0gaixB5kQT5P9QI5fkMFAlbto/hwnW5UuEwXACQ==",
+ "arquivo": "atualizacao-1.1.56.zip",
+ "sha256": "1c2b49e204a384c68d6dc6799b61fde98eaca0c14f3318956d9c54d77e04258a",
+ "tamanho": 1799065,
+ "assinatura": "m2EXcUwg1QTy4uFmTfd97ag5IqaLO3BdTqZEjJiXi3hzauboPF4FzrdmcgQ0A1pJtYIAeRDGUcS0eElxmimHAQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "MENU DE RELATÓRIOS ORGANIZADO POR SEÇÃO: o menu \"Relatórios\" deixou de existir e cada relatório passou para a sua seção. Vendas: Relatórios de vendas (vendas, ticket médio, mais vendidos). Financeiro: Relatórios financeiros (fechamento de caixa, contas a receber, lucratividade). Estoque: posição de estoque, movimentação, extrato do produto e relatório de entradas. Auditoria foi para Configurações"
+   "texto": "MENU RELATÓRIOS VOLTOU, AGORA DIVIDIDO POR SEÇÃO: o menu Relatórios continua único, com títulos separando Vendas (relatório de vendas, ticket médio, mais vendidos), Financeiro (fechamento de caixa, contas a receber, lucratividade), Estoque (posição, movimentação, extrato do produto, entradas de mercadoria) e Sistema (auditoria). Cada relatório é um item próprio, sem abas"
   }
  ]
 }
