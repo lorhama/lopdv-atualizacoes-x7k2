@@ -1,14 +1,14 @@
 {
- "versao": "1.1.58",
+ "versao": "1.1.59",
  "data": "20/11/2026",
- "arquivo": "atualizacao-1.1.58.zip",
- "sha256": "2e13642e19813a0c7effe5f5d9847875157451c0b0ca15d518041854ef8dbaf2",
- "tamanho": 1803563,
- "assinatura": "Ty2312AEnJ7lCxFgCwSAH8yzNC21wyXkEu6bwf7rLSmjnVIZEHbbctmxsUbVexRpxwszZJrXaUksBsBDnxw6Bg==",
+ "arquivo": "atualizacao-1.1.59.zip",
+ "sha256": "53176ef07819ac7abca6c93ce7e23cdc1fd65f0af90091ec5c529a5d1033b4ac",
+ "tamanho": 1803796,
+ "assinatura": "clNSDeW0g65Fmk0me0CA+RCUuPgfkbVcznmosQvzxJYzjF3ieFuOvn9Nm7BGWQ6VzqaFroaLmJBNkU0vkycmCQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "EMPRÉSTIMO DE BENS junto com o Patrimônio: na tela Patrimônio, cada bem ganhou os botões Emprestar, Devolver e Histórico, e uma aba Empréstimos com todos os empréstimos (emprestados agora, atrasados, devolvidos). Empresta para cliente cadastrado ou pessoa avulsa (nome, telefone, documento), com data de saída, data prevista de devolução e o estado do bem na saída e na devolução. Bem emprestado fica marcado no Patrimônio, não pode ser emprestado duas vezes nem baixado, e os atrasados aparecem em vermelho e como aviso no Painel. Termo de empréstimo para imprimir ou salvar em PDF. Nova permissão \"Emprestar bens do patrimônio\" (Gerente e Estoquista já recebem)"
+   "texto": "BOTÃO \"+ NOVO EMPRÉSTIMO\" na aba Empréstimos (e também na aba Bens) do Patrimônio: abre a janela com a lista dos bens livres para escolher o bem, o cliente ou pessoa avulsa, as datas e o estado do bem. Antes só dava para emprestar pelo botão \"Emprestar\" da linha de cada bem"
   }
  ]
 }
