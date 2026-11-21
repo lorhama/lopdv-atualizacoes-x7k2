@@ -1,14 +1,14 @@
 {
- "versao": "1.1.59",
+ "versao": "1.1.60",
  "data": "20/11/2026",
- "arquivo": "atualizacao-1.1.59.zip",
- "sha256": "53176ef07819ac7abca6c93ce7e23cdc1fd65f0af90091ec5c529a5d1033b4ac",
- "tamanho": 1803796,
- "assinatura": "clNSDeW0g65Fmk0me0CA+RCUuPgfkbVcznmosQvzxJYzjF3ieFuOvn9Nm7BGWQ6VzqaFroaLmJBNkU0vkycmCQ==",
+ "arquivo": "atualizacao-1.1.60.zip",
+ "sha256": "706a559ae2a224da5673dfe395f906e1e14c2bb1c78c4e9f5b884a6155b7b87e",
+ "tamanho": 1804277,
+ "assinatura": "NXfnpC0K9SJmGW2BO5FFcvMG8KlxkJEXBr9YchBe+8kdiISlJEgNQa9FcGn1KLLXrdQg3dvML3fyQPduIGwNCQ==",
  "notas": [
   {
    "tipo": "correcao",
-   "texto": "BOTÃO \"+ NOVO EMPRÉSTIMO\" na aba Empréstimos (e também na aba Bens) do Patrimônio: abre a janela com a lista dos bens livres para escolher o bem, o cliente ou pessoa avulsa, as datas e o estado do bem. Antes só dava para emprestar pelo botão \"Emprestar\" da linha de cada bem"
+   "texto": "PAINEL COM UM ÚNICO SELETOR DE PERÍODO: a data é escolhida uma só vez, no topo do Painel (Hoje, Ontem, Últimos 7 dias, Últimos 30 dias, Este mês, Mês passado ou Escolher datas), e atualiza todos os cartões de uma vez. Os seletores individuais de cada cartão saíram, e cada cartão só mostra o período que está valendo. A escolha fica lembrada enquanto o sistema estiver aberto, inclusive ao atualizar a página"
   }
  ]
 }
